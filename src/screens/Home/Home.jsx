@@ -1,20 +1,35 @@
 import React from "react";
-import {HomeContainer, SideBar, SideDiv} from "./Home.style";
+import { Link } from "react-router-dom";
+import { SupportData } from "../../assets/Events/SupportData";
+import citLogo from "../../assets/logo/citlogo.png";
 import Logo from "../../assets/logo/logo.svg";
 import Sidebar from "../../components/Sidebar";
+import { HomeContainer, SupportSection } from "./Home.style";
+
 function Home() {
-    return (
-        <div style={{display:"flex"}}>
-            <HomeContainer>
-                <img style={{maxWidth:"100%"}} src={Logo} alt="logo" />
-                <div>
-                    <a href="">Day Events</a>
-                    <a href="">Day Events</a>
-                </div>
-            </HomeContainer>
-            <Sidebar/>
+  return (
+    <div className="HomeContainer" style={{ display: "flex" }}>
+      <HomeContainer>
+        <div className="citheader">
+          <img style={{ height: "100%" }} src={citLogo} alt="logo" />
+          CHENNAI <br/>
+          INSTITUTE OF TECHNOLOGY
         </div>
-    );
+        <div style={{display:"flex", flexDirection:"column", gap:10}}>
+          <img style={{ maxWidth: "100%" }} src={Logo} alt="logo" />
+          <div>
+            <Link to="/dayEvents">Day Events</Link>
+            <Link to="/nightEvents">Night Events</Link>
+          </div>
+        </div>
+        <SupportSection>
+          <h4>Support</h4>
+          <p>{SupportData}</p>
+        </SupportSection>
+      </HomeContainer>
+      <Sidebar />
+    </div>
+  );
 }
 
 export default Home;
