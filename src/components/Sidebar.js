@@ -11,13 +11,12 @@ import {
   SidebarHeader
 } from "react-pro-sidebar";
 import "react-pro-sidebar/dist/css/styles.css";
+import { Link } from "react-router-dom";
 
 export default function SideBar() {
   const [collapsed, setCollapsed] = useState(true);
   return (
-    <ProSidebar
-      collapsed={collapsed}
-    >
+    <ProSidebar collapsed={collapsed}>
       <SidebarHeader style={{ border: 0 }}>
         <Menu>
           <MenuItem
@@ -37,9 +36,15 @@ export default function SideBar() {
       </SidebarHeader>
       <SidebarContent>
         <Menu iconShape="circle">
-          <MenuItem hidden={collapsed}>Day Events</MenuItem>
-          <MenuItem hidden={collapsed}>Night Events</MenuItem>
-          <MenuItem hidden={collapsed}>About</MenuItem>
+          <MenuItem hidden={collapsed}>
+            <Link to="/dayEvents">Day Events</Link>
+          </MenuItem>
+          <MenuItem hidden={collapsed}>
+            <Link to="/nightEvents">Night Events</Link>
+          </MenuItem>
+          <MenuItem hidden={collapsed}>
+            <Link to="/about">About</Link>
+          </MenuItem>
         </Menu>
       </SidebarContent>
       <SidebarFooter style={{ border: 0 }}>
