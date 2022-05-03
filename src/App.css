@@ -1,6 +1,7 @@
 .pro-sidebar {
   position: absolute;
   right: 0;
+  height:100%!important;
 }
 .pro-sidebar * {
   color: white !important;
