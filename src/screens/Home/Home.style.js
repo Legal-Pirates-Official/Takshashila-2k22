@@ -7,7 +7,8 @@ export const HomeContainer = styled.section`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  max-height: fit-content;
   .citheader {
     color: #fff;
     font-weight: bold;

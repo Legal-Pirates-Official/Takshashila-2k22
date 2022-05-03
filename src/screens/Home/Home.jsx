@@ -15,7 +15,7 @@ function Home() {
           CHENNAI <br/>
           INSTITUTE OF TECHNOLOGY
         </div>
-        <div style={{display:"flex", flexDirection:"column", gap:10}}>
+        <div style={{display:"flex", flexDirection:"column", gap:10, height:"fit-content"}}>
           <img style={{ maxWidth: "100%" }} src={Logo} alt="logo" />
           <div>
             <Link to="/dayEvents">Day Events</Link>
