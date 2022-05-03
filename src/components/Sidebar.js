@@ -35,7 +35,7 @@ export default function SideBar() {
         </Menu>
       </SidebarHeader>
       <SidebarContent className="customSidebar">
-        <Menu iconShape="circle" >
+        <Menu iconShape="circle">
           <MenuItem className="my-2" hidden={collapsed}>
             <Link to="/dayEvents">Day Events</Link>
           </MenuItem>
@@ -48,12 +48,28 @@ export default function SideBar() {
         </Menu>
       </SidebarContent>
       <SidebarFooter style={{ border: 0 }} className="customSidebar">
-        <Menu iconShape="none">
-          <MenuItem icon={<FaFacebook size={20} />}>Facebook</MenuItem>
-          <MenuItem icon={<FaInstagram size={20} />}>Instagram</MenuItem>
-          <MenuItem icon={<FaWhatsapp size={20} />}>WhatsApp</MenuItem>
-          <MenuItem icon={<FaYoutube size={20} />}>YouTube</MenuItem>
+        <Menu hidden={!collapsed} iconShape="none">
+          <MenuItem icon={<FaFacebook size={20} />}></MenuItem>
+          <MenuItem icon={<FaInstagram size={20} />}></MenuItem>
+          <MenuItem icon={<FaWhatsapp size={20} />}></MenuItem>
+          <MenuItem icon={<FaYoutube size={20} />}></MenuItem>
         </Menu>
+        {!collapsed && (
+          <div className="container my-4 d-flex flex-row w-100 justify-content-evenly">
+            <a href="">
+              <FaFacebook size={25} />
+            </a>
+            <a href="">
+              <FaInstagram size={25} />
+            </a>
+            <a href="">
+              <FaWhatsapp size={25} />
+            </a>
+            <a href="">
+              <FaYoutube size={25} />
+            </a>
+          </div>
+        )}
       </SidebarFooter>
     </ProSidebar>
   );
