@@ -19,7 +19,7 @@ export const HomeContainer = styled.section`
     white-space: pre-line;
     @media (max-width: 768px) {
       padding: 0 1rem;
-      font-size:0.9rem;
+      font-size: 0.9rem;
     }
     p {
       margin: 1rem 0;
@@ -57,8 +57,13 @@ export const HomeContainer = styled.section`
         background: #136b40;
         border-radius: 45px;
         font-size: large;
-        font-weight:300;
-    }
+        font-weight: 300;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+          transform: scale(1.025);
+          box-shadow: 1px 1px 5px black;
+        }
+      }
     }
   }
 `;
@@ -67,7 +72,7 @@ export const SupportSection = styled.section`
   padding: 1rem;
   width: 100%;
   color: #fff;
-  font-weight:300;
+  font-weight: 300;
   text-align: left;
   white-space: pre-line;
   @media (max-width: 768px) {
@@ -75,7 +80,7 @@ export const SupportSection = styled.section`
   }
   .heading {
     font-size: x-large;
-    font-weight:400;
+    font-weight: 400;
     color: #1e935a;
     margin-bottom: 5px;
     text-shadow: 1px 1px 2px #000000;
