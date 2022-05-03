@@ -55,7 +55,7 @@ export default function SideBar() {
           <MenuItem icon={<FaYoutube size={20} />}></MenuItem>
         </Menu>
         {!collapsed && (
-          <div className="container my-4 d-flex flex-row w-100 justify-content-evenly">
+          <div className="container my-5 d-flex flex-row w-100 justify-content-evenly">
             <a href="">
               <FaFacebook size={25} />
             </a>

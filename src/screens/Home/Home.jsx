@@ -11,11 +11,20 @@ function Home() {
     <div className="HomeContainer" style={{ display: "flex" }}>
       <HomeContainer>
         <div className="citheader">
-          <img style={{ height: "100%" }} src={citLogo} alt="logo" />
-          CHENNAI <br/>
-          INSTITUTE OF TECHNOLOGY
+          <img src={citLogo} alt="logo" />
+          <p>
+            CHENNAI <br />
+            INSTITUTE OF TECHNOLOGY
+          </p>
         </div>
-        <div style={{display:"flex", flexDirection:"column", gap:10, height:"fit-content"}}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            gap: 10,
+            height: "fit-content"
+          }}
+        >
           <img style={{ maxWidth: "100%" }} src={Logo} alt="logo" />
           <div>
             <Link to="/dayEvents">Day Events</Link>

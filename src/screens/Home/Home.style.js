@@ -13,11 +13,24 @@ export const HomeContainer = styled.section`
     color: #fff;
     font-weight: bold;
     padding: 0 2rem;
+    align-items: flex-start;
     justify-content: flex-start;
     gap: 10px;
     white-space: pre-line;
     @media (max-width: 768px) {
       padding: 0 1rem;
+      font-size:0.9rem;
+    }
+    p {
+      margin: 1rem 0;
+    }
+    img {
+      height: 100% !important;
+      @media (max-width: 768px) {
+        position: relative !important;
+        top: 0 !important;
+        height: 75% !important;
+      }
     }
   }
   div {
@@ -43,7 +56,7 @@ export const HomeContainer = styled.section`
         color: #fff;
         background: #136b40;
         border-radius: 45px;
-        font-size:large;
+        font-size: large;
       }
     }
   }
@@ -55,9 +68,12 @@ export const SupportSection = styled.section`
   color: #fff;
   text-align: left;
   white-space: pre-line;
+  @media (max-width: 768px) {
+    padding-right: 4rem;
+  }
   .heading {
     font-size: x-large;
-    font-weight:normal;
+    font-weight: normal;
     color: #1e935a;
     margin-bottom: 5px;
   }

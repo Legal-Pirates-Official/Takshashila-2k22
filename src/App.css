@@ -7,11 +7,22 @@
   color: white !important;
 }
 .pro-sidebar-inner {
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
   background: rgba(19, 107, 64, 0.9) !important;
+}
+@media only screen and (max-width: 768px) {
+  .pro-sidebar > .pro-sidebar-inner {
+    background-color: transparent !important;
+  }
+  .pro-sidebar:not(.collapsed) > .pro-sidebar-inner {
+    background: rgba(19, 107, 64, 0.95) !important;
+  }
 }
 .HomeContainer {
   background-image: url("./assets/backgrounds/Home.jpg");
-  background-size: cover; 
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
