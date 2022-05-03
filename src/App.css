@@ -1,7 +1,6 @@
 .pro-sidebar {
   position: absolute;
   right: 0;
-  min-height: "100vh";
 }
 .HomeContainer {
   background-image: url("./assets/backgrounds/Home.jpg");
