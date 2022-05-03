@@ -15,7 +15,7 @@ export const dataEvents = [
     },
     {
         id: 2,
-        name: "event1",
+        name: "event2",
         description: "description2",
         title: "Description",
         content:
@@ -23,7 +23,38 @@ export const dataEvents = [
     },
     {
         id: 3,
-        name: "event1",
+        name: "event3",
+        description: "description3",
+        title: "Contact",
+        content: ["Member Name - 9875532872", "Member Name - 9875532872"],
+    },
+    {
+        id: 4,
+        name: "event4",
+        description: "description3",
+        title: "Contact",
+        content: ["Member Name - 9875532872", "Member Name - 9875532872"],
+    },{
+        id: 5,
+        name: "event5",
+        description: "description3",
+        title: "Contact",
+        content: ["Member Name - 9875532872", "Member Name - 9875532872"],
+    },{
+        id: 6,
+        name: "event6",
+        description: "description3",
+        title: "Contact",
+        content: ["Member Name - 9875532872", "Member Name - 9875532872"],
+    },{
+        id: 7,
+        name: "event7",
+        description: "description3",
+        title: "Contact",
+        content: ["Member Name - 9875532872", "Member Name - 9875532872"],
+    },{
+        id: 8,
+        name: "event8",
         description: "description3",
         title: "Contact",
         content: ["Member Name - 9875532872", "Member Name - 9875532872"],
