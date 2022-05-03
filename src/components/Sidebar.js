@@ -17,8 +17,8 @@ export default function SideBar() {
   const [collapsed, setCollapsed] = useState(true);
   return (
     <ProSidebar collapsed={collapsed}>
-      <SidebarHeader style={{ border: 0 }}>
-        <Menu>
+      <SidebarHeader className="customSidebar" style={{ border: 0 }}>
+        <Menu className="customSidebar">
           <MenuItem
             icon={
               collapsed ? (
@@ -34,8 +34,8 @@ export default function SideBar() {
           ></MenuItem>
         </Menu>
       </SidebarHeader>
-      <SidebarContent>
-        <Menu iconShape="circle">
+      <SidebarContent className="customSidebar">
+        <Menu iconShape="circle" >
           <MenuItem className="my-2" hidden={collapsed}>
             <Link to="/dayEvents">Day Events</Link>
           </MenuItem>
@@ -47,7 +47,7 @@ export default function SideBar() {
           </MenuItem>
         </Menu>
       </SidebarContent>
-      <SidebarFooter style={{ border: 0 }}>
+      <SidebarFooter style={{ border: 0 }} className="customSidebar">
         <Menu iconShape="none">
           <MenuItem icon={<FaFacebook size={20} />}>Facebook</MenuItem>
           <MenuItem icon={<FaInstagram size={20} />}>Instagram</MenuItem>

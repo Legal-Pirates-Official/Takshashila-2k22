@@ -2,6 +2,12 @@
   position: absolute;
   right: 0;
 }
+.pro-sidebar * {
+  color: white !important;
+}
+.pro-sidebar-inner {
+  background: rgba(19, 107, 64, 0.9) !important;
+}
 .HomeContainer {
   background-image: url("./assets/backgrounds/Home.jpg");
   background-size: cover;
