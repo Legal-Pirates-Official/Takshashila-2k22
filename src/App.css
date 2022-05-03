@@ -7,3 +7,14 @@
   background-image: url("./assets/backgrounds/Home.jpg");
   background-size: cover;
 }
+.AboutContainer {
+  background-image: url("./assets/backgrounds/About.jpg");
+  background-size: cover;
+}
+.tkheader {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+.tkheader > a > img {
+  height: 80px;
+}

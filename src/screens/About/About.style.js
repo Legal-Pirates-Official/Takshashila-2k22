@@ -1,51 +1,56 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.section`
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    /* height: 100vh; */
-    background-color: #fafafa;
-    padding: 0 10%;
-    text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+  color: #ffff;
+  text-align: left;
+  padding-bottom:75px;
+  line-height: 1.6;
 `;
 
 export const AboutDiv = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+  div {
     position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .title {
+    padding: 0.4rem 1rem;
+    margin: 20px;
+    text-decoration: none;
+    color: #000000;
+    background: #a5e4ff;
+    border-radius: 45px;
+    font-weight: normal;
+  }
+  p {
+    width: 75%;
+    white-space:pre-line;
+  }
+  svg {
+    object-fit: contain;
+    position: absolute;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 40%;
-    div {
-        position: relative;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    h1 {
-        position: relative;
-        font-size: 2.5rem;
-        margin: 3%;
-        font-family: "wild_wolf";
-    }
-    p {
-        width: 75%;
-    }
-    svg {
-        object-fit: contain;
-        position: absolute;
-        /* width: 100%; */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        bottom: 10%;
-    }
+    bottom: 10%;
+  }
 `;
