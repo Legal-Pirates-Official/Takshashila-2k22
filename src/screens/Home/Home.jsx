@@ -23,7 +23,7 @@ function Home() {
           </div>
         </div>
         <SupportSection>
-          <h4>Support</h4>
+          <h4 className="heading">Support</h4>
           <p>{SupportData}</p>
         </SupportSection>
       </HomeContainer>

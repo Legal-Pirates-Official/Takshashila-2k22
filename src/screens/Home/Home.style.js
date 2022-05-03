@@ -42,6 +42,7 @@ export const HomeContainer = styled.section`
         color: #fff;
         background: #136b40;
         border-radius: 45px;
+        font-size:large;
       }
     }
   }
@@ -53,10 +54,10 @@ export const SupportSection = styled.section`
   color: #fff;
   text-align: left;
   white-space: pre-line;
-  h4 {
-    font-size: larger;
+  .heading {
+    font-size: x-large;
+    font-weight:normal;
     color: #1e935a;
     margin-bottom: 5px;
   }
-  text-shadow: 1px 1px black;
 `;
