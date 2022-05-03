@@ -1,7 +1,7 @@
 .pro-sidebar {
   position: absolute;
   right: 0;
-  height:100%!important;
+  height: 100% !important;
 }
 .pro-sidebar * {
   color: white !important;
@@ -11,11 +11,15 @@
 }
 .HomeContainer {
   background-image: url("./assets/backgrounds/Home.jpg");
-  background-size: cover;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .AboutContainer {
   background-image: url("./assets/backgrounds/About.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .tkheader {
   width: 100%;
