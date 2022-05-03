@@ -1,22 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
     EventsContainer,
     EventsDiv,
     RulesDiv,
     AbsoluteDiv,
-} from "./Events.styles";
+} from "./EventData.styles";
 import {dataEvents} from "../../assets/Events/EventsData";
+import { useParams } from 'react-router-dom';
 
-function Events() {
+function EventData() {
+    const params = useParams();
+    
+    const event = dataEvents.find(event=>event.name===params.eventName)
     return (
         <>
             <EventsContainer>
                 <EventsDiv>
-                    <h1>Events Name</h1>
+                    <h1>{event?.name}</h1>
                     <p>
-                        A photo is a moment frozen forever in time. Show the
-                        life you've lived through the lens and the moments
-                        you've preserved through your clicks.
+                        {event?.description}
                     </p>
                     <button>Register Now</button>
                 </EventsDiv>
@@ -44,4 +46,4 @@ function Events() {
     );
 }
 
-export default Events;
+export default EventData;
