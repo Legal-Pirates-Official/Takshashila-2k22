@@ -33,6 +33,7 @@ export const AboutDiv = styled.div`
   .title {
     padding: 0.4rem 1rem;
     margin: 20px;
+    width:fit-content;
     text-decoration: none;
     color: #000000;
     background: #a5e4ff;

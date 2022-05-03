@@ -11,7 +11,7 @@ function About() {
       </div>
       <AboutDiv>
         <div>
-          <h4 className="title">About</h4>
+          <div className="title">About</div>
         </div>
         <p style={{ whiteSpace: "pre-line" }}>
           Takshashila is a vibrant mix of fascinating and fun-filled events to
@@ -30,7 +30,7 @@ function About() {
       </AboutDiv>
       <AboutDiv>
         <div>
-          <h4 className="title">About CIT</h4>
+          <div className="title">About CIT</div>
         </div>
         <p>
           The new normal comes with an opportunity to experience a fresh yet
