@@ -15,6 +15,9 @@ export const HomeContainer = styled.section`
     justify-content: flex-start;
     gap: 10px;
     white-space: pre-line;
+    @media (max-width: 768px) {
+      padding: 0 1rem;
+    }
   }
   div {
     display: flex;
@@ -53,7 +56,7 @@ export const SupportSection = styled.section`
   h4 {
     font-size: larger;
     color: #1e935a;
-    margin-bottom:5px;
+    margin-bottom: 5px;
   }
   text-shadow: 1px 1px black;
 `;
