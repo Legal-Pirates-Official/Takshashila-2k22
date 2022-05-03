@@ -11,7 +11,8 @@ export const AboutContainer = styled.section`
   color: #ffff;
   text-align: left;
   padding-bottom:75px;
-  line-height: 1.6;
+  line-height: 1.8;
+  font-weight:300;
 `;
 
 export const AboutDiv = styled.div`

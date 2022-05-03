@@ -57,7 +57,8 @@ export const HomeContainer = styled.section`
         background: #136b40;
         border-radius: 45px;
         font-size: large;
-      }
+        font-weight:300;
+    }
     }
   }
 `;
@@ -66,6 +67,7 @@ export const SupportSection = styled.section`
   padding: 1rem;
   width: 100%;
   color: #fff;
+  font-weight:300;
   text-align: left;
   white-space: pre-line;
   @media (max-width: 768px) {
@@ -73,8 +75,9 @@ export const SupportSection = styled.section`
   }
   .heading {
     font-size: x-large;
-    font-weight: normal;
+    font-weight:400;
     color: #1e935a;
     margin-bottom: 5px;
+    text-shadow: 1px 1px 2px #000000;
   }
 `;
