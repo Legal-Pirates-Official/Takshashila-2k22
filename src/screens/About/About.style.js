@@ -42,7 +42,6 @@ export const AboutDiv = styled.div`
     font-weight: normal;
   }
   p {
-    width: 75%;
     white-space:pre-line;
   }
   svg {

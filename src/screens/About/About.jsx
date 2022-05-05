@@ -9,7 +9,7 @@ function About() {
       <div className="tkheader" >
           <Link to="/"><img src={tkLogo} alt="logo" /></Link>
       </div>
-      <AboutDiv>
+      <AboutDiv className="container">
         <div>
           <div className="title">About</div>
         </div>
@@ -28,7 +28,7 @@ function About() {
           delegated fervor never witnessed before
         </p>
       </AboutDiv>
-      <AboutDiv>
+      <AboutDiv  className="container">
         <div>
           <div className="title">About CIT</div>
         </div>
