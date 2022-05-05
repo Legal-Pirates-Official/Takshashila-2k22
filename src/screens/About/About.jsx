@@ -22,7 +22,7 @@ function About() {
           Takshashila is a vibrant mix of fascinating and fun-filled events to
           rejoice life in all its facets.The event marks its significance by
           instilling the feeling of exuberance and togetherness amongst the
-          students.The escapade fans out for a span of three days with the motif
+          students. The escapade fans out for a span of three days with the motif
           to accentuate the creative streak in each of us through the multitude
           of varying ventures curated for the young minds.
           <br />
@@ -30,7 +30,7 @@ function About() {
           The new normal comes with an opportunity to experience a fresh yet
           familiar event from the luxury and protection of your home. Experience
           the virtual reality that continues to set the standard by bringing a
-          delegated fervor never witnessed before
+          delegated fervor never witnessed before.
         </p>
       </AboutDiv>
       <AboutDiv className="container">
@@ -38,11 +38,6 @@ function About() {
           <div className="title">About CIT</div>
         </div>
         <p>
-          The new normal comes with an opportunity to experience a fresh yet
-          familiar event from the luxury and protection of your home. Experience
-          the virtual reality that continues to set the standard by bringing a
-          delegated fervor never witnessed before
-          <br /> <br />
           Chennai Institute of Technology (CIT) is a highly esteemed college
           that has marked its place amongst the top colleges in Chennai. It was
           established with an initiative to provide students with quality
