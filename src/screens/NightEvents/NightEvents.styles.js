@@ -39,9 +39,6 @@ export const EventListContainer = styled.section`
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1.5rem;
-  @media (max-width: 768px) {
-    gap: 1rem;
-  }
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -50,6 +47,10 @@ export const EventListContainer = styled.section`
 export const NightEventCircle = styled.section`
   height: 10rem;
   width: 10rem;
+  @media (max-width: 768px) {
+    height: 9rem;
+    width: 9rem;
+  }
   background: #31225F;
   border-radius: 50%;
   display: flex;
