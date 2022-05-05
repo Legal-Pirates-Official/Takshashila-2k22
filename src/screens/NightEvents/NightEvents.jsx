@@ -13,7 +13,7 @@ export default function NightEvents() {
         </Link>
       </div>
       <div className="container pb-5 pt-2">
-        <p className="title">Night Events</p>
+        <p className="title mx-auto mb-4">Night Events</p>
         <EventListContainer>
           {nightEvents.map((event) => {
             const url = require(`../../assets/logo/${event?.image}.png`);

@@ -13,7 +13,7 @@ export default function DayEvents() {
         </Link>
       </div>
       <div className="container pb-5 pt-2">
-        <p className="title">Day Events</p>
+        <p className="title mx-auto mb-4">Day Events</p>
         <EventListContainer>
           {dayEvents.map((event) => {
             const url = require(`../../assets/logo/${event?.image}.png`);
