@@ -38,10 +38,7 @@ export const EventListContainer = styled.section`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 30px;
-  @media (max-width: 768px) {
-    gap: 10px;
-  }
+  gap: 2.5rem;
   align-items: center;
   justify-content: center;
   width: 100%;
