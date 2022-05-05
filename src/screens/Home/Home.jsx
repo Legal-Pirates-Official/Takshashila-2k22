@@ -5,6 +5,7 @@ import citLogo from "../../assets/logo/citlogo.png";
 import Logo from "../../assets/logo/logo.svg";
 import Header from "../../components/NavBar";
 import Sidebar from "../../components/Sidebar";
+import Support from "../../components/Support";
 import { HomeContainer, SupportSection } from "./Home.style";
 
 function Home() {
@@ -33,10 +34,9 @@ function Home() {
             <Link to="/nightEvents">Night Events</Link>
           </div>
         </div>
-        <SupportSection>
-          <h4 className="heading">Support</h4>
-          <p>{SupportData}</p>
-        </SupportSection>
+        <div className="w-100 bg-glass hideInBigScreen">
+          <Support/>
+        </div>
       </HomeContainer>
       <Sidebar />
     </div>

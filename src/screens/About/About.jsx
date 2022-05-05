@@ -2,12 +2,17 @@ import React from "react";
 import { AboutContainer, AboutDiv } from "./About.style";
 import tkLogo from "../../assets/logo/tklogo.png";
 import { Link } from "react-router-dom";
+import { SupportSection } from "../Home/Home.style";
+import { SupportData } from "../../assets/Events/SupportData";
+import Support from "../../components/Support";
 
 function About() {
   return (
     <AboutContainer className="AboutContainer">
-      <div className="tkheader" >
-          <Link to="/"><img src={tkLogo} alt="logo" /></Link>
+      <div className="tkheader">
+        <Link to="/">
+          <img src={tkLogo} alt="logo" />
+        </Link>
       </div>
       <AboutDiv className="container">
         <div>
@@ -28,7 +33,7 @@ function About() {
           delegated fervor never witnessed before
         </p>
       </AboutDiv>
-      <AboutDiv  className="container">
+      <AboutDiv className="container">
         <div>
           <div className="title">About CIT</div>
         </div>
@@ -37,7 +42,7 @@ function About() {
           familiar event from the luxury and protection of your home. Experience
           the virtual reality that continues to set the standard by bringing a
           delegated fervor never witnessed before
-        <br /> <br />
+          <br /> <br />
           Chennai Institute of Technology (CIT) is a highly esteemed college
           that has marked its place amongst the top colleges in Chennai. It was
           established with an initiative to provide students with quality
@@ -51,16 +56,17 @@ function About() {
           global level. Connections with acclaimed countries such as Japan &
           Germany imparts knowledge about the various upgrades in technology,
           automation & manufacturing.
-        </p>{" "}
-        <br /> <br />
-        <p>
+          <br /> <br />
           CIT also believes in creating a better understanding of Engineering
           for school students, who are to step into their college life. Hence,
           they are provided with opportunities through events, which is a
           perfect blend of education & extra-curricular activities.
-        </p>{" "}
-        <br /> <br />
+        </p>
+        <br />
       </AboutDiv>
+      <div className="w-100 bg-glass">
+        <Support className="container pb-0"/>
+      </div>
     </AboutContainer>
   );
 }

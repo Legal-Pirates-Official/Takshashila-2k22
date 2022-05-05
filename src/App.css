@@ -12,20 +12,26 @@
   transition: background-color 0.2s ease-in-out;
   background: rgba(19, 107, 64, 0.9) !important;
 }
-.navbar{
+.navbar {
+  display: none;
+}
+.bg-glass {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.hideInBigScreen > .sm-icons{
   display:none;
 }
-/* .navlink{
-  float:right;
-} */
 @media only screen and (max-width: 768px) {
-  .pro-sidebar{
-    display:none;
+  .pro-sidebar {
+    display: none;
   }
-  .citheader{
-    display:none!important;
+  .citheader {
+    display: none !important;
   }
-  .navbar{
+  .navbar {
+    display: block;
+  }
+  .hideInBigScreen > .sm-icons{
     display:block;
   }
 }
@@ -44,7 +50,7 @@
 .tkheader {
   width: 100%;
   padding: 1rem 2rem;
-  z-index:1;
+  z-index: 1;
 }
 .tkheader > a > img {
   height: 80px;

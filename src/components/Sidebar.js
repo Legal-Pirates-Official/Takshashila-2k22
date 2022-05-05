@@ -49,23 +49,47 @@ export default function SideBar() {
       </SidebarContent>
       <SidebarFooter style={{ border: 0 }} className="customSidebar">
         <Menu hidden={!collapsed} iconShape="none">
-          <MenuItem icon={<FaFacebook size={20} />}></MenuItem>
-          <MenuItem icon={<FaInstagram size={20} />}></MenuItem>
-          <MenuItem icon={<FaWhatsapp size={20} />}></MenuItem>
-          <MenuItem icon={<FaYoutube size={20} />}></MenuItem>
+          <MenuItem
+            icon={
+              <a href="https://m.facebook.com/CIT-Takshashila-106831860821647">
+                <FaFacebook size={20} />
+              </a>
+            }
+          ></MenuItem>
+          <MenuItem
+            icon={
+              <a href="https://instagram.com/cittakshashila?igshid=YmMyMTA2M2Y=">
+                <FaInstagram size={20} />
+              </a>
+            }
+          ></MenuItem>
+          <MenuItem
+            icon={
+              <a href="https://wa.me/message/6HAFB72GRMU7N1">
+                <FaWhatsapp size={20} />
+              </a>
+            }
+          ></MenuItem>
+          <MenuItem
+            icon={
+              <a href="https://youtube.com/c/CITTakshashila">
+                <FaYoutube size={20} />
+              </a>
+            }
+          ></MenuItem>
         </Menu>
         {!collapsed && (
           <div className="container my-5 d-flex flex-row w-100 justify-content-evenly">
-            <a href="">
+            <a href="https://m.facebook.com/CIT-Takshashila-106831860821647">
               <FaFacebook size={25} />
             </a>
-            <a href="">
+            <a href="https://instagram.com/cittakshashila?igshid=YmMyMTA2M2Y=">
               <FaInstagram size={25} />
             </a>
-            <a href="">
+            <a href="https://wa.me/message/6HAFB72GRMU7N1">
               <FaWhatsapp size={25} />
             </a>
-            <a href="">
+            <a href="https://youtube.com/c/CITTakshashila">
               <FaYoutube size={25} />
             </a>
           </div>

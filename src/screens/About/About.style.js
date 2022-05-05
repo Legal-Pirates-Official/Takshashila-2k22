@@ -10,7 +10,6 @@ export const AboutContainer = styled.section`
   min-height: 100vh;
   color: #ffff;
   text-align: left;
-  padding-bottom:75px;
   line-height: 1.8;
   font-weight:300;
 `;
@@ -22,7 +21,6 @@ export const AboutDiv = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 40%;
   div {
     position: relative;
     width: 100%;
