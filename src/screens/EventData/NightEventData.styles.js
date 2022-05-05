@@ -88,10 +88,6 @@ export const EventsTitle = styled.h1`
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
   margin: 5% 0;
-  @media (max-width: 400px) {
-    width: 75%;
-    align-self: center;
-  }
 `;
 
 export const EventsAtag = styled.a`
