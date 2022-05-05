@@ -51,9 +51,6 @@ export const EventsDiv = styled.div`
   }
   ul {
     position: relative;
-    margin-left:1.8rem;
-    /* list-style-type: none; */
-    list-style-image: url("https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/24/f7aecd/external-arrow-arrow-line-royyan-wijaya-detailed-outline-royyan-wijaya-12.png");
   }
   li {
     margin: 1% 0;
