@@ -7,6 +7,7 @@ import Home from "./screens/Home/Home";
 import About from "./screens/About/About";
 import EventData from "./screens/EventData/EventData";
 import DayEvents from "./screens/DayEvents/DayEvents";
+import NightEvents from "./screens/NightEvents/NightEvents";
 
 function App() {
     return (
@@ -16,6 +17,8 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route exact path="/about" element={<About />} />
                 <Route exact path="/dayEvents" element={<DayEvents />} />
+                <Route exact path="/nightEvents" element={<NightEvents />} />
+
                 <Route exact path="/dayEvents/:eventName" element={<EventData />} />
             </Routes>
         </>

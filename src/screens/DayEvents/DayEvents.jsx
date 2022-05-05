@@ -17,7 +17,7 @@ export default function DayEvents() {
         <EventListContainer>
           {dayEvents.map((event) => {
             const url = require(`../../assets/logo/${event?.image}.png`);
-            return <Event image={url} eventName={event.name}></Event>;
+            return <Event type={"day"} image={url} eventName={event.name}></Event>;
           })}
         </EventListContainer>
       </div>
