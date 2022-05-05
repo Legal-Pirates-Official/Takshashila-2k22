@@ -9,7 +9,7 @@ export const AboutContainer = styled.section`
   width: 100%;
   min-height: 100vh;
   color: #ffff;
-  text-align: left;
+  text-align: justify;
   line-height: 1.8;
   font-weight:300;
 `;
