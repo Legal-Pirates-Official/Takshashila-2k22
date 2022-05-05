@@ -8,8 +8,19 @@ export const DayEventsContainer = styled.section`
   justify-content: space-between;
   width: 100%;
   min-height: 100vh;
-  background: #8c6833;
+  background: url(${require("../../assets/backgrounds/Day_Events.png")})
+    bottom/cover no-repeat;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+    }
   .container {
+    z-index:1;
     width: 100%;
     .title {
       width: fit-content;
