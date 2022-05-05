@@ -10,7 +10,6 @@ export const EventsContainer = styled.section`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
   width: 100%;
   min-height: 100vh;
   background: url(${require("../../assets/backgrounds/Night_Events.png")})
