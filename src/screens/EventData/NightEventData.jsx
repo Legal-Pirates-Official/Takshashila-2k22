@@ -6,13 +6,13 @@ import {
   EventsAtag,
   RulesTitle
 } from "./NightEventData.styles";
-import { dayEvents } from "../../assets/Events/EventsData";
+import { nightEvents } from "../../assets/Events/EventsData";
 import { useParams } from "react-router-dom";
 
 function NightEventData() {
   const params = useParams();
 
-  const event = dayEvents.find((event) => event.name === params.eventName);
+  const event = nightEvents.find((event) => event.name === params.eventName);
   return (
     <>
       <EventsContainer>
