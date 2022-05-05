@@ -5,11 +5,11 @@ import {
   EventsTitle,
   EventsAtag,
   RulesTitle
-} from "./EventData.styles";
+} from "./NightEventData.styles";
 import { dayEvents } from "../../assets/Events/EventsData";
 import { useParams } from "react-router-dom";
 
-function EventData() {
+function NightEventData() {
   const params = useParams();
 
   const event = dayEvents.find((event) => event.name === params.eventName);
@@ -45,4 +45,4 @@ function EventData() {
   );
 }
 
-export default EventData;
+export default NightEventData;
