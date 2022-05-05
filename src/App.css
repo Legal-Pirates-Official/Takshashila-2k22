@@ -12,12 +12,21 @@
   transition: background-color 0.2s ease-in-out;
   background: rgba(19, 107, 64, 0.9) !important;
 }
+.navbar{
+  display:none;
+}
+/* .navlink{
+  float:right;
+} */
 @media only screen and (max-width: 768px) {
-  .pro-sidebar > .pro-sidebar-inner {
-    background-color: transparent !important;
+  .pro-sidebar{
+    display:none;
   }
-  .pro-sidebar:not(.collapsed) > .pro-sidebar-inner {
-    background: rgba(19, 107, 64, 0.95) !important;
+  .citheader{
+    display:none!important;
+  }
+  .navbar{
+    display:block;
   }
 }
 .HomeContainer {

@@ -9,13 +9,35 @@ export const HomeContainer = styled.section`
   width: 100%;
   min-height: 100vh;
   max-height: fit-content;
+  .nav-link{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 2% 5%;
+      margin:0 0 0.5rem 0;
+      text-decoration: none;
+      color: #fff;
+      background: #136b40;
+      border-radius: 45px;
+      font-size: medium;
+      font-weight: 400;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        transform: scale(1.025);
+        box-shadow: 1px 1px 5px black;
+      }
+  }
   .citheader {
     color: #fff;
     font-weight: bold;
     padding: 0 2rem;
+    display:flex;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 10px;
+    height:5rem;
+    width:100%;
     white-space: pre-line;
     @media (max-width: 768px) {
       padding: 0 1rem;
@@ -33,38 +55,30 @@ export const HomeContainer = styled.section`
       }
     }
   }
-  div {
+.eventLinks {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     width: 100%;
     height: 5rem;
-
-    div {
-      width: 50%;
-      @media (max-width: 768px) {
-        width: 100%;
+    a {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 2% 7%;
+      text-decoration: none;
+      color: #fff;
+      background: #136b40;
+      border-radius: 45px;
+      font-size: large;
+      font-weight: 300;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        transform: scale(1.025);
+        box-shadow: 1px 1px 5px black;
       }
-      a {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        padding: 2% 7%;
-        text-decoration: none;
-        color: #fff;
-        background: #136b40;
-        border-radius: 45px;
-        font-size: large;
-        font-weight: 300;
-        transition: all 0.2s ease-in-out;
-        &:hover {
-          transform: scale(1.025);
-          box-shadow: 1px 1px 5px black;
-        }
-      }
-    }
   }
 `;
 
