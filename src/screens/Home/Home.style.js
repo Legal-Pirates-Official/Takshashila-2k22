@@ -55,6 +55,19 @@ export const HomeContainer = styled.section`
       }
     }
   }
+  .mainContainer{
+    // img{
+    //   filter: drop-shadow(2px 2px 3px #000);
+    // }
+    min-height:70vh;
+    img,.eventLinks{
+      max-width:45%;
+      @media (max-width: 768px) {
+        max-width:95%;
+      }
+    }
+
+  }
 .eventLinks {
     display: flex;
     flex-direction: row;

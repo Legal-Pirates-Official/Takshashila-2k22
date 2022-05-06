@@ -9,17 +9,17 @@ const Header = ()=> {
     const toggleNavbar = () => setCollapsed(!collapsed);
 
     return (
-        <Navbar className='w-100' style={{position:"relative"}} dark>
+        <Navbar className='w-100' style={{position:"relative"}} light>
         <NavbarBrand  className=" cit" ><img style={{position:"absolute", top:0}} src={clogo} alt="cit-logo" height="60rem"></img></NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} />
         <Collapse isOpen={!collapsed} navbar className="mt-3" >
           <Nav navbar>
-            <NavItem>
+            {/* <NavItem>
                 <NavLink style={{float:"right"}} tag={Link} to="/nightEvents">Night Events</NavLink>
             </NavItem>
             <NavItem>
               <NavLink style={{float:"right"}} tag={Link} to="/dayEvents">Day Events</NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
                 <NavLink style={{float:"right"}} tag={Link} to="/about">About</NavLink>
             </NavItem>

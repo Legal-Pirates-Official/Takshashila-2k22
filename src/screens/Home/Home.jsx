@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { SupportData } from "../../assets/Events/SupportData";
 import citLogo from "../../assets/logo/citlogo.png";
-import Logo from "../../assets/logo/logo.svg";
+import Logo from "../../assets/logo/logo.png";
 import Header from "../../components/NavBar";
 import Sidebar from "../../components/Sidebar";
 import Support from "../../components/Support";
@@ -15,7 +15,7 @@ function Home() {
         <Header className="w-100" />
         <div className="citheader">
           <img src={citLogo} alt="logo" />
-          <p>
+          <p className="text-dark">
             CHENNAI <br />
             INSTITUTE OF TECHNOLOGY
           </p>
@@ -24,14 +24,18 @@ function Home() {
           style={{
             display: "flex",
             flexDirection: "column",
+            alignItems:"center",
+            justifyContent:"center",
             gap: 10,
             height: "fit-content"
           }}
+          className="container mainContainer"
         >
-          <img style={{ maxWidth: "100%" }} src={Logo} alt="logo" />
-          <div className="eventLinks">
-            <Link to="/dayEvents">Day Events</Link>
-            <Link to="/nightEvents">Night Events</Link>
+          <img  src={Logo} alt="logo" />
+          <div className="eventLinks h2 fw-light" style={{alignItems:"flex-start"}} >
+            {/* <Link to="/dayEvents">Day Events</Link>
+            <Link to="/nightEvents">Night Events</Link> */}
+            Coming Soon...
           </div>
         </div>
         <div className="w-100 bg-glass hideInBigScreen">

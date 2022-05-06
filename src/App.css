@@ -21,6 +21,12 @@
 .hideInBigScreen > .sm-icons{
   display:none;
 }
+.HomeContainer {
+  background-image: url("./assets/backgrounds/Home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 @media only screen and (max-width: 768px) {
   .pro-sidebar {
     display: none;
@@ -34,13 +40,14 @@
   .hideInBigScreen > .sm-icons{
     display:block;
   }
+  .HomeContainer {
+    background-image: url("./assets/backgrounds/HomeMobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 }
-.HomeContainer {
-  background-image: url("./assets/backgrounds/Home.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
+
 .AboutContainer {
   background-image: url("./assets/backgrounds/About.jpg");
   background-size: cover;
