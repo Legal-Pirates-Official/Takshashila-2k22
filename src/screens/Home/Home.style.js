@@ -17,16 +17,11 @@ export const HomeContainer = styled.section`
       padding: 2% 5%;
       margin:0 0 0.5rem 0;
       text-decoration: none;
-      color: #fff;
+      color: #fff!important;
       background: #136b40;
       border-radius: 45px;
       font-size: medium;
       font-weight: 400;
-      transition: all 0.2s ease-in-out;
-      &:hover {
-        transform: scale(1.025);
-        box-shadow: 1px 1px 5px black;
-      }
   }
   .citheader {
     color: #fff;
