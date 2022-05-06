@@ -3,11 +3,11 @@ import { SupportData } from "../assets/Events/SupportData";
 import { SupportSection } from "../screens/Home/Home.style";
 import { FaFacebook, FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa";
 
-export default function Support({ className, showIcons }) {
+export default function Support({ className, style }) {
   return (
     <>
       <SupportSection className={className}>
-        <h4 className="heading">Support</h4>
+        <h4 className="heading" style={style}>Support</h4>
         <p>{SupportData}</p>
       </SupportSection>
         <div className="sm-icons container pb-3">
@@ -16,7 +16,8 @@ export default function Support({ className, showIcons }) {
               fontSize: "x-large",
               fontWeight: 400,
               color: "#1e935a",
-              textShadow: "1px 1px 2px #000000"
+              textShadow: "1px 1px 2px #000000",
+              ...style
             }}
             className="m-0"
           >

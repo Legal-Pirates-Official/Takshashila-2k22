@@ -60,7 +60,7 @@ function About() {
         <br />
       </AboutDiv>
       <div className="w-100 bg-glass">
-        <Support className="container pb-0"/>
+        <Support style={{color:"#a5e4ff"}} className="container pb-0"/>
       </div>
     </AboutContainer>
   );
