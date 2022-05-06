@@ -49,7 +49,7 @@
 }
 
 .AboutContainer {
-  background-color:"#142a42";
+  background-color:#142a42;
   background-image: url("./assets/backgrounds/About.jpg");
   background-size: cover;
   background-repeat: no-repeat;
