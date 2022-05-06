@@ -16,7 +16,7 @@
   display: none;
 }
 .bg-glass {
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .hideInBigScreen > .sm-icons{
   display:none;
