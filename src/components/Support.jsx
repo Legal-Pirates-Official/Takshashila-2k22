@@ -28,7 +28,7 @@ export default function Support({ className, style }) {
 
         <div className=" d-flex flex-row w-100 justify-content-start">
           <a
-            className="m-2 text-white"
+            className="m-2 ms-0 text-white"
             href="https://instagram.com/cittakshashila?igshid=YmMyMTA2M2Y="
           >
             <FaInstagram size={25} />
@@ -46,7 +46,7 @@ export default function Support({ className, style }) {
             <FaYoutube size={25} />
           </a>
           <a
-            className="m-2 ms-0 text-white"
+            className="m-2 text-white"
             href="https://m.facebook.com/CIT-Takshashila-106831860821647"
           >
             <FaFacebook size={25} />
