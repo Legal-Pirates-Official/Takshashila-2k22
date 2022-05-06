@@ -35,7 +35,7 @@ function Home() {
           <div className="eventLinks h2 fw-light" style={{alignItems:"flex-start"}} >
             {/* <Link to="/dayEvents">Day Events</Link>
             <Link to="/nightEvents">Night Events</Link> */}
-            Coming Soon...
+            Registration Opens Soon
           </div>
         </div>
         <div className="w-100 bg-glass hideInBigScreen">
