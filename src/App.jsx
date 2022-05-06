@@ -1,15 +1,14 @@
-import "./App.css";
 import React from "react";
-import {Routes, Route} from "react-router-dom";
-import {GlobalStyles} from "./global.style.js";
-
-import Home from "./screens/Home/Home";
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import { GlobalStyles } from "./global.style.js";
 import About from "./screens/About/About";
-import EventData from "./screens/EventData/DayEventData";
 import DayEvents from "./screens/DayEvents/DayEvents";
-import NightEvents from "./screens/NightEvents/NightEvents";
 import DayEventData from "./screens/EventData/DayEventData";
 import NightEventData from "./screens/EventData/NightEventData";
+import Home from "./screens/Home/Home";
+import NightEvents from "./screens/NightEvents/NightEvents";
+
 
 function App() {
     return (

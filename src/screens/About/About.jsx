@@ -2,8 +2,6 @@ import React from "react";
 import { AboutContainer, AboutDiv } from "./About.style";
 import tkLogo from "../../assets/logo/tklogo.png";
 import { Link } from "react-router-dom";
-import { SupportSection } from "../Home/Home.style";
-import { SupportData } from "../../assets/Events/SupportData";
 import Support from "../../components/Support";
 
 function About() {

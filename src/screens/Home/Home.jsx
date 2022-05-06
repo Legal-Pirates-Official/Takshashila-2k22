@@ -1,12 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { SupportData } from "../../assets/Events/SupportData";
 import citLogo from "../../assets/logo/citlogo.png";
 import Logo from "../../assets/logo/logo.png";
 import Header from "../../components/NavBar";
 import Sidebar from "../../components/Sidebar";
 import Support from "../../components/Support";
-import { HomeContainer, SupportSection } from "./Home.style";
+import { HomeContainer } from "./Home.style";
 
 function Home() {
   return (
