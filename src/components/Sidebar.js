@@ -51,13 +51,6 @@ export default function SideBar() {
         <Menu hidden={!collapsed} iconShape="none">
           <MenuItem
             icon={
-              <a href="https://m.facebook.com/CIT-Takshashila-106831860821647">
-                <FaFacebook size={20} />
-              </a>
-            }
-          ></MenuItem>
-          <MenuItem
-            icon={
               <a href="https://instagram.com/cittakshashila?igshid=YmMyMTA2M2Y=">
                 <FaInstagram size={20} />
               </a>
@@ -77,12 +70,16 @@ export default function SideBar() {
               </a>
             }
           ></MenuItem>
+          <MenuItem
+            icon={
+              <a href="https://m.facebook.com/CIT-Takshashila-106831860821647">
+                <FaFacebook size={20} />
+              </a>
+            }
+          ></MenuItem>
         </Menu>
         {!collapsed && (
           <div className="container my-5 d-flex flex-row w-100 justify-content-evenly">
-            <a href="https://m.facebook.com/CIT-Takshashila-106831860821647">
-              <FaFacebook size={25} />
-            </a>
             <a href="https://instagram.com/cittakshashila?igshid=YmMyMTA2M2Y=">
               <FaInstagram size={25} />
             </a>
@@ -91,6 +88,9 @@ export default function SideBar() {
             </a>
             <a href="https://youtube.com/c/CITTakshashila">
               <FaYoutube size={25} />
+            </a>
+            <a href="https://m.facebook.com/CIT-Takshashila-106831860821647">
+              <FaFacebook size={25} />
             </a>
           </div>
         )}
