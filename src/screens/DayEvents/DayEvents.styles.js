@@ -8,6 +8,7 @@ export const DayEventsContainer = styled.section`
   justify-content: space-between;
   width: 100%;
   min-height: 100vh;
+  background-color:#8b4118;
   background: url(${require("../../assets/backgrounds/Day_Events.png")})
     bottom/cover no-repeat;
   &::before {
