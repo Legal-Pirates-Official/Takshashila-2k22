@@ -17,8 +17,7 @@ export default function Support({ className, style }) {
           style={{
             fontSize: "x-large",
             fontWeight: 400,
-            color: "#1e935a",
-            textShadow: "1px 1px 2px #000000",
+            color: "#b0d1be",
             ...style
           }}
           className="m-0"

@@ -105,8 +105,7 @@ export const SupportSection = styled.section`
   .heading {
     font-size: x-large;
     font-weight: 400;
-    color: #1e935a;
+    color: #b0d1be;
     margin-bottom: 5px;
-    text-shadow: 1px 1px 2px #000000;
   }
 `;
