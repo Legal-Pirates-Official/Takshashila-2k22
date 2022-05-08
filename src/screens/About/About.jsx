@@ -55,9 +55,8 @@ function About() {
           they are provided with opportunities through events, which is a
           perfect blend of education & extra-curricular activities.
         </p>
-        <br />
       </AboutDiv>
-      <div className="w-100 bg-glass">
+      <div className="w-100 mt-5 bg-glass">
         <Support style={{color:"#a5e4ff"}} className="container pb-0"/>
       </div>
     </AboutContainer>
