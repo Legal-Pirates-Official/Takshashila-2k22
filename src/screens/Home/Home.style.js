@@ -74,8 +74,10 @@ export const HomeContainer = styled.section`
       display: flex;
       flex-direction: row;
       align-items: center;
+      text-align:center;
       justify-content: center;
       padding: 2% 7%;
+      margin: 0 5px;
       text-decoration: none;
       color: #fff;
       background: #136b40;
