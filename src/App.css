@@ -12,8 +12,8 @@
   transition: background-color 0.2s ease-in-out;
   background: rgba(19, 107, 64, 0.9) !important;
 }
-.navbar {
-  display: none;
+.navbar,.navbar-brand{
+  padding:0!important;
 }
 .navbar-toggler:focus {
   box-shadow: none;

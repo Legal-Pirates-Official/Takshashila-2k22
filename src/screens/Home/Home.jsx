@@ -12,9 +12,6 @@ function Home() {
     <div className="HomeContainer" style={{ display: "flex" }}>
       <HomeContainer>
         <Header className="w-100" />
-        <div className="citheader">
-          <img src={citLogo} alt="logo" />
-        </div>
         <div
           style={{
             display: "flex",
@@ -32,11 +29,11 @@ function Home() {
             <Link to="/technicalEvents">Technical Events</Link>
           </div>
         </div>
-        <div className="w-100 bg-glass hideInBigScreen">
-          <Support/>
+        <div className="w-100 bg-glass">
+          <Support className="container"/>
         </div>
       </HomeContainer>
-      <Sidebar />
+    
     </div>
   );
 }

@@ -14,7 +14,7 @@ export const HomeContainer = styled.section`
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      padding: 2% 5%;
+      padding: 0.5rem 1.25rem;
       margin:0 0 0.5rem 0;
       text-decoration: none;
       color: #fff!important;
