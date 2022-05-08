@@ -4,10 +4,12 @@ import {
   EventsDiv,
   EventsTitle,
   EventsAtag,
-  RulesTitle
+  RulesTitle,
+  ParentContainer
 } from "./CulturalEventData.styles";
 import { culturalEventsData } from "../../assets/Events/CulturalEventsData";
-import { useParams } from "react-router-dom";
+import tkLogo from "../../assets/logo/tklogo.png";
+import { Link, useParams } from "react-router-dom";
 
 function CulturalEventData() {
   const params = useParams();
@@ -21,8 +23,13 @@ function CulturalEventData() {
   );
 
   return (
-    <>
-      <EventsContainer className="culturalEventsContainer">
+    <ParentContainer className="culturalEventsContainer">
+      <div className="tkheader">
+        <Link to="/">
+          <img src={tkLogo} alt="logo" />
+        </Link>
+      </div>
+      <EventsContainer>
         <EventsDiv>
           <div>
             <EventsTitle>{event?.name}</EventsTitle>
@@ -48,7 +55,8 @@ function CulturalEventData() {
           </ul>
         </EventsDiv>
       </EventsContainer>
-    </>
+      <div></div>
+    </ParentContainer>
   );
 }
 

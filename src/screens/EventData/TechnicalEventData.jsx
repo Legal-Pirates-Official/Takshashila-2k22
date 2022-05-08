@@ -4,10 +4,12 @@ import {
   EventsDiv,
   EventsTitle,
   EventsAtag,
-  RulesTitle
+  RulesTitle,
+  ParentContainer
 } from "./TechnicalEventData.styles";
 import { technicalEventsData } from "../../assets/Events/TechnicalEventsData";
-import { useParams } from "react-router-dom";
+import tkLogo from "../../assets/logo/tklogo.png";
+import { Link, useParams } from "react-router-dom";
 
 function TechnicalEventData() {
   const params = useParams();
@@ -19,8 +21,13 @@ function TechnicalEventData() {
   const event = eventData?.data?.find((event) => event.name === params.eventName);
 
   return (
-    <>
-      <EventsContainer className="technicalEventsContainer">
+    <ParentContainer  className="technicalEventsContainer">
+      <div className="tkheader">
+        <Link to="/">
+          <img src={tkLogo} alt="logo" />
+        </Link>
+      </div>
+      <EventsContainer>
         <EventsDiv>
           <div>
             <EventsTitle>{event?.name}</EventsTitle>
@@ -46,7 +53,8 @@ function TechnicalEventData() {
           </ul>
         </EventsDiv>
       </EventsContainer>
-    </>
+      <div></div>
+    </ParentContainer>
   );
 }
 

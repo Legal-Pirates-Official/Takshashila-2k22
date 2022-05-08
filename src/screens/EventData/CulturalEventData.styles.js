@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const EventsContainer = styled.section`
+export const ParentContainer = styled.section`
   * {
     margin: 0;
     padding: 0;
@@ -8,14 +8,24 @@ export const EventsContainer = styled.section`
   }
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   min-height: 100vh;
   background: url(${require("../../assets/backgrounds/Day_Events.jpg")})
     bottom/cover no-repeat;
   color: white;
+`;
 
+export const EventsContainer = styled.section`
+
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  color: white;
   @media (max-width: 768px) {
     flex-direction: column;
     height: fit-content;
@@ -26,7 +36,6 @@ export const EventsDiv = styled.div`
   display: flex;
   position: relative;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
   width: 50%;
   padding: 3% 6%;
@@ -44,10 +53,6 @@ export const EventsDiv = styled.div`
   li {
     margin: 1% 0;
   }
-  /* ul li:before {
-        position: absolute;
-        content: "✓";
-    } */
   @media (max-width: 768px) {
     div {
       width: 100%;
