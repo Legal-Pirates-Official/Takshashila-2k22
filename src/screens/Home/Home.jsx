@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import citLogo from "../../assets/logo/citlogo.png";
+import citLogo from "../../assets/logo/citlogoFull.png";
 import Logo from "../../assets/logo/logo.png";
 import Header from "../../components/NavBar";
 import Sidebar from "../../components/Sidebar";
@@ -14,10 +14,6 @@ function Home() {
         <Header className="w-100" />
         <div className="citheader">
           <img src={citLogo} alt="logo" />
-          <p className="text-dark">
-            CHENNAI <br />
-            INSTITUTE OF TECHNOLOGY
-          </p>
         </div>
         <div
           style={{
