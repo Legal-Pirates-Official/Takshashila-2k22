@@ -15,20 +15,26 @@
 .navbar {
   display: none;
 }
-.navbar-toggler:focus{
-  box-shadow:none;
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 .bg-glass {
   background-color: rgba(0, 0, 0, 0.4);
 }
-.hideInBigScreen > .sm-icons{
-  display:none;
+.hideInBigScreen > .sm-icons {
+  display: none;
 }
 .HomeContainer {
   background-image: url("./assets/backgrounds/Home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+.technicalEventsContainer {
+  background-color: #27194e !important;
+}
+.culturalEventsContainer {
+  background-color: #8b4118 !important;
 }
 @media only screen and (max-width: 768px) {
   .pro-sidebar {
@@ -40,8 +46,8 @@
   .navbar {
     display: block;
   }
-  .hideInBigScreen > .sm-icons{
-    display:block;
+  .hideInBigScreen > .sm-icons {
+    display: block;
   }
   .HomeContainer {
     background-image: url("./assets/backgrounds/HomeMobile.jpg");
@@ -52,7 +58,7 @@
 }
 
 .AboutContainer {
-  background-color:#142a42;
+  background-color: #142a42;
   background-image: url("./assets/backgrounds/About.jpg");
   background-size: cover;
   background-repeat: no-repeat;

@@ -9,7 +9,7 @@ import Event from "../../components/Eventbox";
 import { culturalEventsData } from "../../assets/Events/CulturalEventsData";
 export default function CulturalEvents() {
   return (
-    <CulturalEventsContainer>
+    <CulturalEventsContainer className="culturalEventsContainer">
       <div className="tkheader">
         <Link to="/">
           <img src={tkLogo} alt="logo" />

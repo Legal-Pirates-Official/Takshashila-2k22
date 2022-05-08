@@ -12,7 +12,6 @@ export const EventsContainer = styled.section`
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  background-color:#8b4118;
   background: url(${require("../../assets/backgrounds/Day_Events.png")})
     bottom/cover no-repeat;
   color: white;

@@ -20,7 +20,7 @@ function TechnicalEventData() {
 
   return (
     <>
-      <EventsContainer>
+      <EventsContainer className="technicalEventsContainer">
         <EventsDiv>
           <div>
             <EventsTitle>{event?.name}</EventsTitle>

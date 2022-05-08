@@ -6,7 +6,7 @@ import Event from "../../components/Eventbox";
 import { technicalEventsData } from "../../assets/Events/TechnicalEventsData";
 export default function TechnicalEvents() {
   return (
-    <TechnicalEventsContainer>
+    <TechnicalEventsContainer className="technicalEventsContainer">
       <div className="tkheader">
         <Link to="/">
           <img src={tkLogo} alt="logo" />

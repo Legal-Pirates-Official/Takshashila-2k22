@@ -22,7 +22,7 @@ function CulturalEventData() {
 
   return (
     <>
-      <EventsContainer>
+      <EventsContainer className="culturalEventsContainer">
         <EventsDiv>
           <div>
             <EventsTitle>{event?.name}</EventsTitle>

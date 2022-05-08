@@ -8,7 +8,6 @@ export const TechnicalEventsContainer = styled.section`
   justify-content: space-between;
   width: 100%;
   min-height: 100vh;
-  background-color:#271a4c;
   background: url(${require("../../assets/backgrounds/Night_Events.png")})
     bottom/cover no-repeat;
     &::before {
