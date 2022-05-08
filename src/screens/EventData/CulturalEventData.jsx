@@ -5,14 +5,21 @@ import {
   EventsTitle,
   EventsAtag,
   RulesTitle
-} from "./DayEventData.styles";
-import { dayEvents } from "../../assets/Events/EventsData";
+} from "./CulturalEventData.styles";
+import { culturalEventsData } from "../../assets/Events/CulturalEventsData";
 import { useParams } from "react-router-dom";
 
-function DayEventData() {
+function CulturalEventData() {
   const params = useParams();
 
-  const event = dayEvents.find((event) => event.name === params.eventName);
+  const eventData = culturalEventsData.find(
+    (data) => data?.heading === params?.type
+  );
+
+  const event = eventData?.data.find(
+    (event) => event.name === params.eventName
+  );
+
   return (
     <>
       <EventsContainer>
@@ -45,4 +52,4 @@ function DayEventData() {
   );
 }
 
-export default DayEventData;
+export default CulturalEventData;

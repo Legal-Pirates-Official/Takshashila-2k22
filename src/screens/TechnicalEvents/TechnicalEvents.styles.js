@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const NightEventsContainer = styled.section`
+export const TechnicalEventsContainer = styled.section`
   position: relative;
   display: flex;
   flex-direction: column;

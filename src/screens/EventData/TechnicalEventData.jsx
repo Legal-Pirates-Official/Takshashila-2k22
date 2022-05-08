@@ -5,14 +5,19 @@ import {
   EventsTitle,
   EventsAtag,
   RulesTitle
-} from "./NightEventData.styles";
-import { nightEvents } from "../../assets/Events/EventsData";
+} from "./TechnicalEventData.styles";
+import { technicalEventsData } from "../../assets/Events/TechnicalEventsData";
 import { useParams } from "react-router-dom";
 
-function NightEventData() {
+function TechnicalEventData() {
   const params = useParams();
 
-  const event = nightEvents.find((event) => event.name === params.eventName);
+  const eventData = technicalEventsData.find(
+    (data) => data?.heading === params?.type
+  );
+
+  const event = eventData?.data?.find((event) => event.name === params.eventName);
+
   return (
     <>
       <EventsContainer>
@@ -45,4 +50,4 @@ function NightEventData() {
   );
 }
 
-export default NightEventData;
+export default TechnicalEventData;

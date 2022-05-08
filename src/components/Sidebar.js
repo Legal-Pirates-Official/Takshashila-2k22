@@ -36,12 +36,12 @@ export default function SideBar() {
       </SidebarHeader>
       <SidebarContent className="customSidebar">
         <Menu iconShape="circle">
-          {/* <MenuItem className="my-2" hidden={collapsed}>
-            <Link to="/dayEvents">Day Events</Link>
+          <MenuItem className="my-2" hidden={collapsed}>
+            <Link to="/culturalEvents">Cultural Events</Link>
           </MenuItem>
           <MenuItem className="my-2" hidden={collapsed}>
-            <Link to="/nightEvents">Night Events</Link>
-          </MenuItem> */}
+            <Link to="/technicalEvents">Technical Events</Link>
+          </MenuItem>
           <MenuItem className="my-2" hidden={collapsed}>
             <Link to="/about">About</Link>
           </MenuItem>

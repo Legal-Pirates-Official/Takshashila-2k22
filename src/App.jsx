@@ -3,12 +3,11 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { GlobalStyles } from "./global.style.js";
 import About from "./screens/About/About";
-import DayEvents from "./screens/DayEvents/DayEvents";
-import DayEventData from "./screens/EventData/DayEventData";
-import NightEventData from "./screens/EventData/NightEventData";
+import CulturalEvents from "./screens/CulturalEvents/CulturalEvents";
+import CulturalEventData from "./screens/EventData/CulturalEventData";
+import TechnicalEventData from "./screens/EventData/TechnicalEventData";
 import Home from "./screens/Home/Home";
-import NightEvents from "./screens/NightEvents/NightEvents";
-
+import TechnicalEvents from "./screens/TechnicalEvents/TechnicalEvents";
 
 function App() {
     return (
@@ -17,10 +16,10 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route exact path="/about" element={<About />} />
-                <Route exact path="/dayEvents" element={<DayEvents />} />
-                <Route exact path="/nightEvents" element={<NightEvents />} />
-                <Route exact path="/dayEvents/:eventName" element={<DayEventData />} />
-                <Route exact path="/nightEvents/:eventName" element={<NightEventData />} />
+                <Route exact path="/culturalEvents" element={<CulturalEvents />} />
+                <Route exact path="/technicalEvents" element={<TechnicalEvents />} />
+                <Route exact path="/culturalEvents/:type/:eventName" element={<CulturalEventData />} />
+                <Route exact path="/technicalEvents/:type/:eventName" element={<TechnicalEventData />} />
             </Routes>
         </>
     );

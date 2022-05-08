@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import citLogo from "../../assets/logo/citlogo.png";
 import Logo from "../../assets/logo/logo.png";
 import Header from "../../components/NavBar";
@@ -31,9 +32,8 @@ function Home() {
         >
           <img  src={Logo} alt="logo" />
           <div className="eventLinks h2 fw-light" style={{alignItems:"flex-start"}} >
-            {/* <Link to="/dayEvents">Day Events</Link>
-            <Link to="/nightEvents">Night Events</Link> */}
-            Registration Opens Soon
+            <Link to="/culturalEvents">Cultural Events</Link>
+            <Link to="/technicalEvents">Technical Events</Link>
           </div>
         </div>
         <div className="w-100 bg-glass hideInBigScreen">

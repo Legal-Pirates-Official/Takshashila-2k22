@@ -14,12 +14,12 @@ const Header = ()=> {
         <NavbarToggler onClick={toggleNavbar} />
         <Collapse isOpen={!collapsed} navbar className="mt-3" >
           <Nav navbar>
-            {/* <NavItem>
-                <NavLink style={{float:"right"}} tag={Link} to="/nightEvents">Night Events</NavLink>
+            <NavItem>
+                <NavLink style={{float:"right"}} tag={Link} to="/technicalEvents">Technical Events</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink style={{float:"right"}} tag={Link} to="/dayEvents">Day Events</NavLink>
-            </NavItem> */}
+              <NavLink style={{float:"right"}} tag={Link} to="/culturalEvents">Cultural Events</NavLink>
+            </NavItem>
             <NavItem>
                 <NavLink style={{float:"right"}} tag={Link} to="/about">About</NavLink>
             </NavItem>
