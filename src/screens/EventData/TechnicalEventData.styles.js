@@ -12,20 +12,9 @@ export const EventsContainer = styled.section`
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  background: url(${require("../../assets/backgrounds/Night_Events.png")})
+  background: url(${require("../../assets/backgrounds/Night_Events.jpg")})
     bottom/cover no-repeat;
   color: white;
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    z-index: 1;
-  }
-
   @media (max-width: 768px) {
     flex-direction: column;
     height: fit-content;
