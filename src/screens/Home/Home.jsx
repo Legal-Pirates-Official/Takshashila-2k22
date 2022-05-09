@@ -25,8 +25,8 @@ function Home() {
         >
           <img  src={Logo} alt="logo" />
           <div className="eventLinks h2 fw-light" style={{alignItems:"flex-start"}} >
-            <Link to="/culturalEvents">Cultural Events</Link>
-            <Link to="/technicalEvents">Technical Events</Link>
+            <Link to="/culturalEvents">Cultural</Link>
+            <Link to="/technicalEvents">Technical</Link>
           </div>
         </div>
         <div className="w-100 bg-glass">

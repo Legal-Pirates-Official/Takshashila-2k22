@@ -32,12 +32,12 @@ const Header = () => {
               tag={Link}
               to="/technicalEvents"
             >
-              Technical Events
+              Technical
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink style={{ float: "right" }} tag={Link} to="/culturalEvents">
-              Cultural Events
+              Cultural
             </NavLink>
           </NavItem>
           <NavItem>
