@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function ContentView({ rules, registration,type }) {
-  const [activeTab, setActiveTab] = useState("rules");
+  const [activeTab, setActiveTab] = useState(rules?"rules":"registration");
   return (
     <div
       className="h-100"
@@ -21,7 +21,7 @@ export default function ContentView({ rules, registration,type }) {
           gap: 40
         }}
       >
-        <h3
+        {rules&&<h3
             className={ type==="cultural"?"cultural-tab-selector fw-light":"technical-tab-selector fw-light"}
             style={{
             textDecoration: activeTab === "rules" ? "underline" : "none"
@@ -29,7 +29,7 @@ export default function ContentView({ rules, registration,type }) {
           onClick={() => setActiveTab("rules")}
         >
           Rules
-        </h3>
+        </h3>}
         {registration && (
           <h3
             className={type==="cultural"?"cultural-tab-selector fw-light":"technical-tab-selector fw-light"}
@@ -51,7 +51,7 @@ export default function ContentView({ rules, registration,type }) {
                 <>
                   <h4 className="my-2">{Object?.keys(rule)[0]}</h4>
                   {rule[Object?.keys(rule)[0]]?.map((rules) => (
-                    <li style={{ listStyle: "inside" }}>{rules}</li>
+                    <li style={{ listStyle: "inside", whiteSpace:"pre-line" }}>{rules}</li>
                   ))}
                 </>
               ))}
