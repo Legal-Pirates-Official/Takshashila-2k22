@@ -34,7 +34,7 @@ function TechnicalEventData() {
           <div>
             {event?.contact?.map((data) => (
               <p>
-                {data?.name} - <span>{data?.number}</span>
+                {data?.name} <span>{`(${data?.number})`}</span>
               </p>
             ))}
           </div>
