@@ -20,7 +20,7 @@ export default function CulturalEvents() {
           <p className="title mx-auto mb-4">{info?.heading}</p>
           <EventListContainer>
             {info?.data?.map((event) => {
-              const url = require(`../../assets/logo/${event?.image}.png`);
+              const url = require(`../../assets/eventLogos/${event?.image}.png`);
               return (
                 <Event
                   type={"cultural"}

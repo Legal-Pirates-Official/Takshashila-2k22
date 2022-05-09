@@ -36,6 +36,14 @@
 .culturalEventsContainer {
   background-color: #8b4118 !important;
 }
+.cultural-tab-selector{
+  color: #ffd365;
+  cursor:pointer;
+}
+.technical-tab-selector{
+  color: #f7aecd;
+  cursor:pointer;
+}
 @media only screen and (max-width: 768px) {
   .pro-sidebar {
     display: none;

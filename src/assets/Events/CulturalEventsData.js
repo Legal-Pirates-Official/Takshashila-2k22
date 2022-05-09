@@ -1,290 +1,294 @@
 export const culturalEventsData = [
-    {
-      heading: "Pro Shows",
-      data: [
-        {
-          name: "night event1",
-          description:
-            "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
-          rules: [
-            "The work will be judged based on creativity, incase of tie likes will      be considered.",
-            "The entries shouldn’t have any watermark.",
-            " The entries should be submitted during registration.",
-            "Identification of plagiarism will lead to disqualification",
-            " The judge's decision will be final"
-          ],
-          contact: [
-            { name: "Person", number: "1234567890" },
-            { name: "Person", number: "1234567890" }
-          ],
-          link: "https://www.google.com",
-          image: "tklogo"
-        },
-        {
-          name: "event1",
-          description:
-            "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
-          rules: [
-            "The work will be judged based on creativity, incase of tie likes will      be considered.",
-            "The entries shouldn’t have any watermark.",
-            " The entries should be submitted during registration.",
-            "Identification of plagiarism will lead to disqualification",
-            " The judge's decision will be final"
-          ],
-          contact: [
-            { name: "Person", number: "1234567890" },
-            { name: "Person", number: "1234567890" }
-          ],
-          link: "https://www.google.com",
-          image: "tklogo"
-        },
-        {
-          name: "event1",
-          description:
-            "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
-          rules: [
-            "The work will be judged based on creativity, incase of tie likes will      be considered.",
-            "The entries shouldn’t have any watermark.",
-            " The entries should be submitted during registration.",
-            "Identification of plagiarism will lead to disqualification",
-            " The judge's decision will be final"
-          ],
-          contact: [
-            { name: "Person", number: "1234567890" },
-            { name: "Person", number: "1234567890" }
-          ],
-          link: "https://www.google.com",
-          image: "tklogo"
-        },
-        {
-          name: "event1",
-          description:
-            "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
-          rules: [
-            "The work will be judged based on creativity, incase of tie likes will      be considered.",
-            "The entries shouldn’t have any watermark.",
-            " The entries should be submitted during registration.",
-            "Identification of plagiarism will lead to disqualification",
-            " The judge's decision will be final"
-          ],
-          contact: [
-            { name: "Person", number: "1234567890" },
-            { name: "Person", number: "1234567890" }
-          ],
-          link: "https://www.google.com",
-          image: "tklogo"
-        },
-        {
-          name: "event1",
-          description:
-            "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
-          rules: [
-            "The work will be judged based on creativity, incase of tie likes will      be considered.",
-            "The entries shouldn’t have any watermark.",
-            " The entries should be submitted during registration.",
-            "Identification of plagiarism will lead to disqualification",
-            " The judge's decision will be final"
-          ],
-          contact: [
-            { name: "Person", number: "1234567890" },
-            { name: "Person", number: "1234567890" }
-          ],
-          link: "https://www.google.com",
-          image: "tklogo"
-        },
-        {
-          name: "event1",
-          description:
-            "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
-          rules: [
-            "The work will be judged based on creativity, incase of tie likes will      be considered.",
-            "The entries shouldn’t have any watermark.",
-            " The entries should be submitted during registration.",
-            "Identification of plagiarism will lead to disqualification",
-            " The judge's decision will be final"
-          ],
-          contact: [
-            { name: "Person", number: "1234567890" },
-            { name: "Person", number: "1234567890" }
-          ],
-          link: "https://www.google.com",
-          image: "tklogo"
-        }
-      ]
-    },{
-      heading: "Events",
-      data: [
-        {
-          name: "night event1",
-          description:
-            "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
-          rules: [
-            "The work will be judged based on creativity, incase of tie likes will      be considered.",
-            "The entries shouldn’t have any watermark.",
-            " The entries should be submitted during registration.",
-            "Identification of plagiarism will lead to disqualification",
-            " The judge's decision will be final"
-          ],
-          contact: [
-            { name: "Person", number: "1234567890" },
-            { name: "Person", number: "1234567890" }
-          ],
-          link: "https://www.google.com",
-          image: "tklogo"
-        },
-        {
-          name: "event1",
-          description:
-            "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
-          rules: [
-            "The work will be judged based on creativity, incase of tie likes will      be considered.",
-            "The entries shouldn’t have any watermark.",
-            " The entries should be submitted during registration.",
-            "Identification of plagiarism will lead to disqualification",
-            " The judge's decision will be final"
-          ],
-          contact: [
-            { name: "Person", number: "1234567890" },
-            { name: "Person", number: "1234567890" }
-          ],
-          link: "https://www.google.com",
-          image: "tklogo"
-        },
-        {
-          name: "event1",
-          description:
-            "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
-          rules: [
-            "The work will be judged based on creativity, incase of tie likes will      be considered.",
-            "The entries shouldn’t have any watermark.",
-            " The entries should be submitted during registration.",
-            "Identification of plagiarism will lead to disqualification",
-            " The judge's decision will be final"
-          ],
-          contact: [
-            { name: "Person", number: "1234567890" },
-            { name: "Person", number: "1234567890" }
-          ],
-          link: "https://www.google.com",
-          image: "tklogo"
-        },
-      ]
-    },{
-        heading: "Online Events",
-        data: [
+  {
+    heading: "Pro Shows",
+    data: [
+      {
+        name: "event1",
+        description:
+          "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
+        rules: [
           {
-            name: "night event1",
-            description:
-              "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
-            rules: [
+            Prelims: [
               "The work will be judged based on creativity, incase of tie likes will      be considered.",
               "The entries shouldn’t have any watermark.",
               " The entries should be submitted during registration.",
               "Identification of plagiarism will lead to disqualification",
               " The judge's decision will be final"
-            ],
-            contact: [
-              { name: "Person", number: "1234567890" },
-              { name: "Person", number: "1234567890" }
-            ],
-            link: "https://www.google.com",
-            image: "tklogo"
+            ]
           },
           {
-            name: "event1",
-            description:
-              "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
-            rules: [
+            "Final": [
               "The work will be judged based on creativity, incase of tie likes will      be considered.",
               "The entries shouldn’t have any watermark.",
               " The entries should be submitted during registration.",
               "Identification of plagiarism will lead to disqualification",
               " The judge's decision will be final"
-            ],
-            contact: [
-              { name: "Person", number: "1234567890" },
-              { name: "Person", number: "1234567890" }
-            ],
-            link: "https://www.google.com",
-            image: "tklogo"
-          },
-          {
-            name: "event1",
-            description:
-              "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
-            rules: [
-              "The work will be judged based on creativity, incase of tie likes will      be considered.",
-              "The entries shouldn’t have any watermark.",
-              " The entries should be submitted during registration.",
-              "Identification of plagiarism will lead to disqualification",
-              " The judge's decision will be final"
-            ],
-            contact: [
-              { name: "Person", number: "1234567890" },
-              { name: "Person", number: "1234567890" }
-            ],
-            link: "https://www.google.com",
-            image: "tklogo"
-          },
-        ]
-      },{
-        heading: "Sports",
-        data: [
-          {
-            name: "night event1",
-            description:
-              "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
-            rules: [
-              "The work will be judged based on creativity, incase of tie likes will      be considered.",
-              "The entries shouldn’t have any watermark.",
-              " The entries should be submitted during registration.",
-              "Identification of plagiarism will lead to disqualification",
-              " The judge's decision will be final"
-            ],
-            contact: [
-              { name: "Person", number: "1234567890" },
-              { name: "Person", number: "1234567890" }
-            ],
-            link: "https://www.google.com",
-            image: "tklogo"
-          },
-          {
-            name: "event1",
-            description:
-              "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
-            rules: [
-              "The work will be judged based on creativity, incase of tie likes will      be considered.",
-              "The entries shouldn’t have any watermark.",
-              " The entries should be submitted during registration.",
-              "Identification of plagiarism will lead to disqualification",
-              " The judge's decision will be final"
-            ],
-            contact: [
-              { name: "Person", number: "1234567890" },
-              { name: "Person", number: "1234567890" }
-            ],
-            link: "https://www.google.com",
-            image: "tklogo"
-          },
-          {
-            name: "event1",
-            description:
-              "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
-            rules: [
-              "The work will be judged based on creativity, incase of tie likes will      be considered.",
-              "The entries shouldn’t have any watermark.",
-              " The entries should be submitted during registration.",
-              "Identification of plagiarism will lead to disqualification",
-              " The judge's decision will be final"
-            ],
-            contact: [
-              { name: "Person", number: "1234567890" },
-              { name: "Person", number: "1234567890" }
-            ],
-            link: "https://www.google.com",
-            image: "tklogo"
-          },
-        ]
+            ]
+          }
+        ],
+        registration: [
+          "reg The work will be judged based on creativity, incase of tie likes will      be considered.",
+          "The entries shouldn’t have any watermark.",
+          " The entries should be submitted during registration.",
+          "Identification of plagiarism will lead to disqualification",
+          " The judge's decision will be final"
+        ],
+        contact: [
+          { name: "Person", number: "1234567890" },
+          { name: "Person", number: "1234567890" }
+        ],
+        link: "https://www.google.com",
+        image: "tklogo"
+      },
+      {
+        name: "event1",
+        description:
+          "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
+        rules: [
+          "The work will be judged based on creativity, incase of tie likes will      be considered.",
+          "The entries shouldn’t have any watermark.",
+          " The entries should be submitted during registration.",
+          "Identification of plagiarism will lead to disqualification",
+          " The judge's decision will be final"
+        ],
+        contact: [
+          { name: "Person", number: "1234567890" },
+          { name: "Person", number: "1234567890" }
+        ],
+        link: "https://www.google.com",
+        image: "tklogo"
+      },
+      {
+        name: "event1",
+        description:
+          "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
+        rules: [
+          "The work will be judged based on creativity, incase of tie likes will      be considered.",
+          "The entries shouldn’t have any watermark.",
+          " The entries should be submitted during registration.",
+          "Identification of plagiarism will lead to disqualification",
+          " The judge's decision will be final"
+        ],
+        contact: [
+          { name: "Person", number: "1234567890" },
+          { name: "Person", number: "1234567890" }
+        ],
+        link: "https://www.google.com",
+        image: "tklogo"
+      },
+      {
+        name: "event1",
+        description:
+          "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
+        rules: [
+          "The work will be judged based on creativity, incase of tie likes will      be considered.",
+          "The entries shouldn’t have any watermark.",
+          " The entries should be submitted during registration.",
+          "Identification of plagiarism will lead to disqualification",
+          " The judge's decision will be final"
+        ],
+        contact: [
+          { name: "Person", number: "1234567890" },
+          { name: "Person", number: "1234567890" }
+        ],
+        link: "https://www.google.com",
+        image: "tklogo"
+      },
+      {
+        name: "event1",
+        description:
+          "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
+        rules: [
+          "The work will be judged based on creativity, incase of tie likes will      be considered.",
+          "The entries shouldn’t have any watermark.",
+          " The entries should be submitted during registration.",
+          "Identification of plagiarism will lead to disqualification",
+          " The judge's decision will be final"
+        ],
+        contact: [
+          { name: "Person", number: "1234567890" },
+          { name: "Person", number: "1234567890" }
+        ],
+        link: "https://www.google.com",
+        image: "tklogo"
       }
-  ];
-  
+    ]
+  },
+  {
+    heading: "Events",
+    data: [
+      {
+        name: "night event1",
+        description:
+          "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
+        rules: [
+          "The work will be judged based on creativity, incase of tie likes will      be considered.",
+          "The entries shouldn’t have any watermark.",
+          " The entries should be submitted during registration.",
+          "Identification of plagiarism will lead to disqualification",
+          " The judge's decision will be final"
+        ],
+        contact: [
+          { name: "Person", number: "1234567890" },
+          { name: "Person", number: "1234567890" }
+        ],
+        link: "https://www.google.com",
+        image: "tklogo"
+      },
+      {
+        name: "event1",
+        description:
+          "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
+        rules: [
+          "The work will be judged based on creativity, incase of tie likes will      be considered.",
+          "The entries shouldn’t have any watermark.",
+          " The entries should be submitted during registration.",
+          "Identification of plagiarism will lead to disqualification",
+          " The judge's decision will be final"
+        ],
+        contact: [
+          { name: "Person", number: "1234567890" },
+          { name: "Person", number: "1234567890" }
+        ],
+        link: "https://www.google.com",
+        image: "tklogo"
+      },
+      {
+        name: "event1",
+        description:
+          "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
+        rules: [
+          "The work will be judged based on creativity, incase of tie likes will      be considered.",
+          "The entries shouldn’t have any watermark.",
+          " The entries should be submitted during registration.",
+          "Identification of plagiarism will lead to disqualification",
+          " The judge's decision will be final"
+        ],
+        contact: [
+          { name: "Person", number: "1234567890" },
+          { name: "Person", number: "1234567890" }
+        ],
+        link: "https://www.google.com",
+        image: "tklogo"
+      }
+    ]
+  },
+  {
+    heading: "Online Events",
+    data: [
+      {
+        name: "night event1",
+        description:
+          "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
+        rules: [
+          "The work will be judged based on creativity, incase of tie likes will      be considered.",
+          "The entries shouldn’t have any watermark.",
+          " The entries should be submitted during registration.",
+          "Identification of plagiarism will lead to disqualification",
+          " The judge's decision will be final"
+        ],
+        contact: [
+          { name: "Person", number: "1234567890" },
+          { name: "Person", number: "1234567890" }
+        ],
+        link: "https://www.google.com",
+        image: "tklogo"
+      },
+      {
+        name: "event1",
+        description:
+          "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
+        rules: [
+          "The work will be judged based on creativity, incase of tie likes will      be considered.",
+          "The entries shouldn’t have any watermark.",
+          " The entries should be submitted during registration.",
+          "Identification of plagiarism will lead to disqualification",
+          " The judge's decision will be final"
+        ],
+        contact: [
+          { name: "Person", number: "1234567890" },
+          { name: "Person", number: "1234567890" }
+        ],
+        link: "https://www.google.com",
+        image: "tklogo"
+      },
+      {
+        name: "event1",
+        description:
+          "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
+        rules: [
+          "The work will be judged based on creativity, incase of tie likes will      be considered.",
+          "The entries shouldn’t have any watermark.",
+          " The entries should be submitted during registration.",
+          "Identification of plagiarism will lead to disqualification",
+          " The judge's decision will be final"
+        ],
+        contact: [
+          { name: "Person", number: "1234567890" },
+          { name: "Person", number: "1234567890" }
+        ],
+        link: "https://www.google.com",
+        image: "tklogo"
+      }
+    ]
+  },
+  {
+    heading: "Sports",
+    data: [
+      {
+        name: "night event1",
+        description:
+          "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
+        rules: [
+          "The work will be judged based on creativity, incase of tie likes will      be considered.",
+          "The entries shouldn’t have any watermark.",
+          " The entries should be submitted during registration.",
+          "Identification of plagiarism will lead to disqualification",
+          " The judge's decision will be final"
+        ],
+        contact: [
+          { name: "Person", number: "1234567890" },
+          { name: "Person", number: "1234567890" }
+        ],
+        link: "https://www.google.com",
+        image: "tklogo"
+      },
+      {
+        name: "event1",
+        description:
+          "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
+        rules: [
+          "The work will be judged based on creativity, incase of tie likes will      be considered.",
+          "The entries shouldn’t have any watermark.",
+          " The entries should be submitted during registration.",
+          "Identification of plagiarism will lead to disqualification",
+          " The judge's decision will be final"
+        ],
+        contact: [
+          { name: "Person", number: "1234567890" },
+          { name: "Person", number: "1234567890" }
+        ],
+        link: "https://www.google.com",
+        image: "tklogo"
+      },
+      {
+        name: "event1",
+        description:
+          "A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
+        rules: [
+          "The work will be judged based on creativity, incase of tie likes will      be considered.",
+          "The entries shouldn’t have any watermark.",
+          " The entries should be submitted during registration.",
+          "Identification of plagiarism will lead to disqualification",
+          " The judge's decision will be final"
+        ],
+        contact: [
+          { name: "Person", number: "1234567890" },
+          { name: "Person", number: "1234567890" }
+        ],
+        link: "https://www.google.com",
+        image: "tklogo"
+      }
+    ]
+  }
+];

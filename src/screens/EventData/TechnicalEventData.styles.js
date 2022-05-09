@@ -27,7 +27,6 @@ export const EventsContainer = styled.section`
   color: white;
   @media (max-width: 768px) {
     flex-direction: column;
-    height: fit-content;
   }
 `;
 
@@ -35,12 +34,11 @@ export const EventsDiv = styled.div`
   display: flex;
   position: relative;
   flex-direction: column;
-  /* align-items: center; */
-  justify-content: center;
+  justify-content: flex-start;
   width: 50%;
   padding: 3% 6%;
   z-index: 2;
-  height: 100%;
+  min-height: 500px;
   div {
     padding: 3% 0;
   }
@@ -64,6 +62,24 @@ export const EventsDiv = styled.div`
         margin-top: 5%;
       }
     }
+    min-height: 100px;
+    width: 95%;
+  }
+`;
+
+export const ContentDiv = styled.div`
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+  padding: 3% 6%;
+  z-index: 2;
+  height: 100%;
+  @media (max-width: 768px) {
+    div {
+      width: 100%;
+    }
     width: 95%;
   }
 `;
@@ -79,7 +95,7 @@ export const EventsTitle = styled.h1`
   align-items: center;
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
-  margin: 5% 0;
+  margin: 0 0 5% 0;
 `;
 
 export const EventsAtag = styled.a`

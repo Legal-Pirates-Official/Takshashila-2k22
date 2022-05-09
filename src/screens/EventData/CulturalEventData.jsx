@@ -1,15 +1,13 @@
 import React from "react";
-import {
-  EventsContainer,
-  EventsDiv,
-  EventsTitle,
-  EventsAtag,
-  RulesTitle,
-  ParentContainer
-} from "./CulturalEventData.styles";
+import { Link, useParams } from "react-router-dom";
 import { culturalEventsData } from "../../assets/Events/CulturalEventsData";
 import tkLogo from "../../assets/logo/tklogo.png";
-import { Link, useParams } from "react-router-dom";
+import ContentView from "../../components/ContentView";
+import {
+  ContentDiv, EventsAtag, EventsContainer,
+  EventsDiv,
+  EventsTitle, ParentContainer
+} from "./CulturalEventData.styles";
 
 function CulturalEventData() {
   const params = useParams();
@@ -31,7 +29,7 @@ function CulturalEventData() {
       </div>
       <EventsContainer>
         <EventsDiv>
-          <div>
+          <div className="p-0">
             <EventsTitle>{event?.name}</EventsTitle>
             <p>{event?.description}</p>
           </div>
@@ -46,14 +44,9 @@ function CulturalEventData() {
             <EventsAtag href={event?.link}>Register Now</EventsAtag>
           </div>
         </EventsDiv>
-        <EventsDiv>
-          <RulesTitle>Rules</RulesTitle>
-          <ul>
-            {event?.rules?.map((rule) => (
-              <li>{rule}</li>
-            ))}
-          </ul>
-        </EventsDiv>
+        <ContentDiv >
+          <ContentView type={"cultural"} rules={event?.rules} registration={event?.registration} />
+        </ContentDiv>
       </EventsContainer>
       <div></div>
     </ParentContainer>
