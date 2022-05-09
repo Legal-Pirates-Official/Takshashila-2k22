@@ -76,13 +76,13 @@ export const HomeContainer = styled.section`
       align-items: center;
       text-align:center;
       justify-content: center;
-      padding: 2% 7%;
+      padding: 0.75rem 2.25rem;
       margin: 0 5px;
       text-decoration: none;
       color: #fff;
       background: #136b40;
       border-radius: 45px;
-      font-size: large;
+      font-size: 1.25rem;
       font-weight: 300;
       transition: all 0.2s ease-in-out;
       &:hover {
