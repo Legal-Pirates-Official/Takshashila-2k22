@@ -1,0 +1,82 @@
+.pro-sidebar {
+  position: absolute;
+  right: 0;
+  height: 100% !important;
+}
+.pro-sidebar * {
+  color: white !important;
+}
+.pro-sidebar-inner {
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  background: rgba(19, 107, 64, 0.9) !important;
+}
+.navbar,.navbar-brand{
+  padding:0!important;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.bg-glass {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.hideInBigScreen > .sm-icons {
+  display: none;
+}
+.HomeContainer {
+  background-image: url("./assets/backgrounds/Home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.technicalEventsContainer {
+  background-color: #27194e !important;
+}
+.culturalEventsContainer {
+  background-color: #8b4118 !important;
+}
+.cultural-tab-selector{
+  color: #ffd365;
+  cursor:pointer;
+}
+.technical-tab-selector{
+  color: #f7aecd;
+  cursor:pointer;
+}
+@media only screen and (max-width: 768px) {
+  .pro-sidebar {
+    display: none;
+  }
+  .citheader {
+    display: none !important;
+  }
+  .navbar {
+    display: block;
+  }
+  .hideInBigScreen > .sm-icons {
+    display: block;
+  }
+  .HomeContainer {
+    background-image: url("./assets/backgrounds/HomeMobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+.AboutContainer {
+  background-color: #142a42;
+  background-image: url("./assets/backgrounds/About.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.tkheader {
+  width: 100%!important;
+  padding: 1rem 2rem!important;
+  z-index: 1!important;
+}
+.tkheader > a > img {
+  height: 80px;
+}
