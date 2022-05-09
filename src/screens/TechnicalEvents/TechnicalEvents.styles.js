@@ -8,7 +8,7 @@ export const TechnicalEventsContainer = styled.section`
   justify-content: space-between;
   width: 100%;
   height: 100vh;
-  overflow:scroll;
+  overflow-y:scroll;
   background: url(${require("../../assets/backgrounds/Night_Events.jpg")})
     bottom/cover no-repeat;
   .container {

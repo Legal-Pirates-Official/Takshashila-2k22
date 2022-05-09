@@ -45,7 +45,7 @@ export default function ContentView({ rules, registration,type }) {
       </div>
       <div className="content py-0 h-100">
         {activeTab === "rules" ? (
-          <div style={{ height: "400px", overflow: "scroll" }}>
+          <div style={{ height: "400px", overflowY: "scroll" }}>
             <ul>
               {rules?.map((rule) => (
                 <>
@@ -58,7 +58,7 @@ export default function ContentView({ rules, registration,type }) {
             </ul>
           </div>
         ) : (
-          <div style={{ height: "400px", overflow: "scroll" }}>
+          <div style={{ height: "400px", overflowY: "scroll" }}>
             <ul>
               {registration &&
                 registration?.map((rule) => (
