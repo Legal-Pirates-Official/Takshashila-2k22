@@ -7,7 +7,8 @@ export const CulturalEventsContainer = styled.section`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
+  overflow:scroll;
   background: url(${require("../../assets/backgrounds/Day_Events.jpg")})
     bottom/cover no-repeat;
   .container {
