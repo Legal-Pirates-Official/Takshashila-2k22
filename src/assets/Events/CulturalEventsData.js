@@ -487,8 +487,8 @@ export const culturalEventsData = [
         ],
 
         contact: [
-          { name: "Person", number: "1234567890" },
-          { name: "Person", number: "1234567890" }
+          { name: "Rohith Nair", number: "7397385494" },
+          { name: "Bavana", number: "7010701974" }
         ],
         link: "http://www.cittakshashila.org",
         image: "plush"
