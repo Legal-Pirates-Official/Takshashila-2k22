@@ -80,3 +80,7 @@
 .tkheader > a > img {
   height: 80px;
 }
+.disabled {
+  pointer-events: none;
+  cursor: default;
+}

@@ -39,7 +39,7 @@ function TechnicalEventData() {
             ))}
           </div>
           <div>
-            <EventsAtag href={event?.link}>Register Now</EventsAtag>
+            <EventsAtag href={event?.link} className="disabled">Registration Opens Soon</EventsAtag>
           </div>
         </EventsDiv>
         <ContentDiv >
