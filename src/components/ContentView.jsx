@@ -51,7 +51,7 @@ export default function ContentView({ rules, registration,type }) {
                 <>
                   <h4 className="my-2">{Object?.keys(rule)[0]}</h4>
                   {rule[Object?.keys(rule)[0]]?.map((rules) => (
-                    <li style={{ listStyle: "inside", whiteSpace:"pre-line" }}>{rules}</li>
+                    <li style={{ listStyle: "outside", whiteSpace:"pre-line",marginLeft:"15px"}}>{rules}</li>
                   ))}
                 </>
               ))}
@@ -62,7 +62,7 @@ export default function ContentView({ rules, registration,type }) {
             <ul>
               {registration &&
                 registration?.map((rule) => (
-                  <li style={{ listStyle: "inside" }}>{rule}</li>
+                  <li style={{ listStyle: "outside", whiteSpace:"pre-line",marginLeft:"15px"}}>{rule}</li>
                 ))}
             </ul>
           </div>
