@@ -13,7 +13,7 @@ export default function Event({ eventName, image, type, heading }) {
     </div>
   ) : (
     <div>
-      <NightEventCircle onClick={() => navigate(`${heading}/${eventName}`)}>
+      <NightEventCircle className="p-2" onClick={() => navigate(`${heading}/${eventName}`)}>
         <img alt="event" src={image} width="70%"></img>
       </NightEventCircle>
       <div className="text-center mt-2 text-white">{eventName}</div>
