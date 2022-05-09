@@ -1,7 +1,7 @@
 import React from "react";
 import { SupportData } from "../assets/Events/SupportData";
 import { SupportSection } from "../screens/Home/Home.style";
-import { FaFacebook, FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp, FaYoutube } from "react-icons/fa";
 
 export default function Support({ className, style }) {
   return (
@@ -43,6 +43,18 @@ export default function Support({ className, style }) {
             href="https://youtube.com/c/CITTakshashila"
           >
             <FaYoutube size={25} />
+          </a>
+          <a
+            className="m-2 text-white"
+            href="https://twitter.com/cittakshashila?t=qD_1iQtp-ZgNBT7tnwxCaQ&s=08"
+          >
+            <FaTwitter size={25} />
+          </a>
+          <a
+            className="m-2 text-white"
+            href="https://www.linkedin.com/in/cittakshashila"
+          >
+            <FaLinkedin size={25} />
           </a>
           <a
             className="m-2 text-white"
