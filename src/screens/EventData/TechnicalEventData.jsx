@@ -38,9 +38,9 @@ function TechnicalEventData() {
               </p>
             ))}
           </div>
-          <div>
+          {event?.link&&<div>
             <EventsAtag href={event?.link} className="disabled">Registration Opens Soon</EventsAtag>
-          </div>
+          </div>}
         </EventsDiv>
         <ContentDiv >
           <ContentView type={"technical"} rules={event?.rules} registration={event?.registration} />

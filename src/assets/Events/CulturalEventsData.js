@@ -412,11 +412,6 @@ export const culturalEventsData = [
         name: "Funzone",
         description:
           "Suit up and put your game faces on as you're about to dive into our world of mini games-the fun zone.",
-        contact: [
-          { name: "Person", number: "0000" },
-          { name: "Person", number: "0000" }
-        ],
-        link: "https://www.google.com",
         image: "funzone"
       },
       {
