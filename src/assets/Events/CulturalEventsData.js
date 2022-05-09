@@ -783,7 +783,36 @@ export const culturalEventsData = [
         ],
         link: "http://www.cittakshashila.org",
         image: "shipwrek"
-      }
+      },{
+        name: "BGMI",
+        description:
+          "Zero down your enemies, unshackle the beast within you and establish your dominance. Prove yourself as the undefeated champion , it's game on! Kill. Reload. Repeat.",
+        registration: [
+          "College ID is mandatory.",
+          "The event comes under general registration.",
+          "The team-head should register for the event, on behalf of the team."
+        ],
+        rules: [
+          {
+            "": [
+              "Gaming should be done only using mobile phones. ",
+              "Emulators and Ipads are not allowed.",
+              "All the members of the squad should register themselves in advance.",
+              "Involvement of unregistered members will lead to instant elimination of the squad.",
+              "Players should have all the maps downloaded prior to the event.",
+              "No refund will be provided if the player is kicked out of the server due to glitches or any other cause..",
+              "In case of any technical issues in the event, the match will be rescheduled. Participants are asked to agree with the new time allotted.",
+              "Matches will be supervised separately to avoid malpractices."
+            ]
+          }
+        ],
+        contact: [
+          { name: "Sathiyaramanan", number: "9500206795" },
+          { name: "Aswath", number: "8946028066" }
+        ],
+        link: "https://www.google.com",
+        image: "bgmi"
+      },
     ]
   },
   {
@@ -890,36 +919,6 @@ export const culturalEventsData = [
         ],
         link: "https://www.google.com",
         image: "stylusstrokes"
-      },
-      {
-        name: "BGMI",
-        description:
-          "Zero down your enemies, unshackle the beast within you and establish your dominance. Prove yourself as the undefeated champion , it's game on! Kill. Reload. Repeat.",
-        registration: [
-          "College ID is mandatory.",
-          "The event comes under general registration.",
-          "The team-head should register for the event, on behalf of the team."
-        ],
-        rules: [
-          {
-            "": [
-              "Gaming should be done only using mobile phones. ",
-              "Emulators and Ipads are not allowed.",
-              "All the members of the squad should register themselves in advance.",
-              "Involvement of unregistered members will lead to instant elimination of the squad.",
-              "Players should have all the maps downloaded prior to the event.",
-              "No refund will be provided if the player is kicked out of the server due to glitches or any other cause..",
-              "In case of any technical issues in the event, the match will be rescheduled. Participants are asked to agree with the new time allotted.",
-              "Matches will be supervised separately to avoid malpractices."
-            ]
-          }
-        ],
-        contact: [
-          { name: "Sathiyaramanan", number: "9500206795" },
-          { name: "Aswath", number: "8946028066" }
-        ],
-        link: "https://www.google.com",
-        image: "bgmi"
       },
     ]
   },
