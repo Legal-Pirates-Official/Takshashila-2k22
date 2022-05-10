@@ -45,7 +45,7 @@ function CulturalEventData() {
           </div>}
         </EventsDiv>
         <ContentDiv >
-          <ContentView type={"cultural"} rules={event?.rules} registration={event?.registration} />
+          <ContentView type={"cultural"} rules={event?.rules} registration={event?.registration} gallery={event?.gallery} />
         </ContentDiv>
       </EventsContainer>
       <div></div>
