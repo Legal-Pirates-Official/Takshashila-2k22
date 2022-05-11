@@ -9,7 +9,7 @@ export const culturalEventsData = [
         rules: [
           {
             Prelims: [
-              "Perfomance video should be uploaded during registration.",
+              "Performance video should be uploaded during registration.",
               "Only a single non-edited video should be submitted. ",
               "The maximum duration of the video should be 3 minutes.",
               "The last day for the submission of the video is before the 14th of May 2022."
@@ -21,8 +21,8 @@ export const culturalEventsData = [
               "Cross-over between teams is permitted. ",
               "Vulgarity and obscenity are not permitted ",
               "A minimum of 6 and a maximum of 30 members inclusive of backstage helpers will be allowed to perform on the stage. ",
-              "Any damage caused to the stage or any other device will be viewed seriously. ",
-              "Judge's and organizer's decisions will be final. "
+              "Any damage caused to the stage or any other properties will be viewed seriously. ",
+              "Judges' and organizers' decisions will be final. "
             ]
           }
         ],
@@ -136,7 +136,7 @@ export const culturalEventsData = [
       {
         name: "Solo Dance",
         description:
-          "Sway your elite feet and match em with the beats. Lose yourself to the melody and let the dance display the real you.",
+          "Sway your elite feet and match them with the beats. Lose yourself to the melody and let the dance display the real you.",
         registration: [
           "College ID is mandatory.",
           "This event comes under general registration."
@@ -183,7 +183,7 @@ export const culturalEventsData = [
               "There is no particular theme.",
               "Participants should get their own props. All props must be specified to the event coordinator.",
               "The lighting of matchsticks, candles, and cigarettes, or any derogatory acts are strictly not allowed on stage. ",
-              "Crossover teams are permitted ( participants can be from different colleges). ",
+              "Crossover teams are permitted (participants can be from different colleges). ",
               "Any obscene/offensive music/song is not allowed.",
               "The judges' decision will be final."
             ]
@@ -247,7 +247,9 @@ export const culturalEventsData = [
           "Let the voice of your harmony stir the souls of the audience!. Make your melody march to victory with the triumphant tunes of your team!.",
         registration: [
           "College ID is mandatory.",
-          "This event comes under general registration."
+          "This event comes under general registration.",
+          "Cross-over teams are allowed",
+          "The team-head should register for the event, on behalf of the team."
         ],
         rules: [
           {
@@ -284,7 +286,7 @@ export const culturalEventsData = [
           "It's not a youtube short or reel. Let the beauty of your short film sink through our minds. Open our eyes, oh! director",
         registration: [
           "College ID is mandatory.",
-          "This event comes under general registration.",
+          "Registration is to be done online and this event comes under general registration.",
           "The team-head should register for the event, on behalf of the team."
         ],
         rules: [
@@ -362,14 +364,14 @@ export const culturalEventsData = [
         rules: [
           {
             "": [
-              "Each team can have a maximum of 4-10 members.",
+              "Each team can have minimum of 4 to maximum of 10 members.",
               "Duration of performing the act is limited from 3-6 minutes for each team.",
               "Exceeding the specified time is strictly prohibited.",
               "Selected teams will be allowed to perform on the informal stage.",
               "The music chosen by the teams must be handed over to the event organizer 30 mins before the commencement of the event.",
               "Usage of vulgar gestures will lead to elimination.",
               "Acts based on controversial and sensitive topics are not permitted.",
-              "Judges' and organizers' decisions will be final."
+              "Judges' and organizers' decision will be final."
             ]
           }
         ],
@@ -525,7 +527,6 @@ export const culturalEventsData = [
           },
           {
             "Round 2": [
-              "Difficulty level will be increased for the round.",
               "Malpractice should be avoided.",
               "Judges' decision is final."
             ]
@@ -538,7 +539,7 @@ export const culturalEventsData = [
         ],
         link: "https://forms.gle/tF8o8oVekwwDfQF97",
         image: "framespot"
-      }, //13
+      }, //
 
       //14
       {
@@ -601,8 +602,8 @@ export const culturalEventsData = [
               "Topic will be provided on the spot. ",
               "Participants will be given 3 minutes to prepare on the topic specified.",
               "There will be two rounds conducted in this event. ",
-              "Usage of unparlimentary words is not permitted.",
-              "Participants are not allowed to interupt.",
+              "Usage of unparliamentary words is not permitted.",
+              "Participants are not allowed to interrupt.",
               "Verbally abusing your opponent is strictly prohibited.",
               "Judges' and organizers' decisions will be final."
             ]
@@ -858,9 +859,10 @@ export const culturalEventsData = [
               "DSLR cameras and mobile phones are permitted.",
               "Upload your photos during registration.",
               "Photos should not be taken from any online source.",
-              "Selfies or other inappropriate content will not be considered for disqualification.",
+              "Selfies or other inappropriate content will not be considered.",
               "Basic editing including color correction, cropping is acceptable.",
-              "Judging criteria are 50%  based on creativity and 50% based on likes."
+              "Shortlisting will be based on likes and creativity.",
+              "Judges decision will be final."
             ]
           }
         ],
@@ -890,14 +892,14 @@ export const culturalEventsData = [
               "First-round will be held online where participants need to upload their memes druing registration.",
               "Submissions should be sent on or before the 18th MAY 2022.",
               "Selection will be done on the basis of creativity and originality of the meme.",
-              "Judging criteria are 50% based on creativity and 50% based on likes."
+              "Shortlisting will be based on likes and creativity."
             ]
           },
           {
             "Round 2": [
               "Final round will be conducted offline and participants have to create a meme on the spot.",
               "Theme and Templates for the final round will be provided by the organizers.",
-              "Decision of the jury panel will be final."
+              "Judges desicion will be final."
             ]
           }
         ],
@@ -923,6 +925,7 @@ export const culturalEventsData = [
             "": [
               "Only one entry is permitted.",
               "Upload your digital art during registration.",
+              "Submissions should be sent on or before the 18th MAY 2022.",
               "Work should be submitted in an A4 sized canvas.",
               "Offensive content must be avoided.",
               "Submissions should not contain any watermarks.",
@@ -936,7 +939,8 @@ export const culturalEventsData = [
                   5. Affinity
                   6. Rebelle
                   7. Procreate`,
-              "Judging criteria are 50% based on creativity and 50% based on likes."
+              "Shortlisting will be based on likes and creativity.",
+              "Judges decision will be final."
             ]
           }
         ],
@@ -965,11 +969,11 @@ export const culturalEventsData = [
             "": [
               "All the participants are requested to come to their respective rooms before 9:30 am.",
               "Using mobile phones during the event is prohibited. If caught, the player will be disqualified.",
-              "The duration of this game is 40 minutes.",
+              "Duration: 40 minutes.",
               "If the game is not completed in less than 40 minutes, a bonus time of 5mins will be provided.",
               "Playoffs will be held on 21st May.",
               "Illegal moves are prohibited.",
-              "Refrees' and organizers' decisions will be final."
+              "Referees' and organizers' decisions will be final."
             ]
           }
         ],

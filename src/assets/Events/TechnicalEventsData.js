@@ -3,7 +3,7 @@ export const technicalEventsData = [
     heading: "Events",
     data: [
       {
-        name: "Drive n Strive",
+        name: "Drive n Strive (RC event)",
         description:
           "The force shall decide the winner. Wield your strength or yield. May the forcebe with you.",
         registration: [
@@ -14,18 +14,18 @@ export const technicalEventsData = [
         rules: [
           {
             "": [
-              "Each team must comprise of 3 - 5 members.",
-              "The participants need to bring their own RC, it should be built, not purchased.",
+              "Maximum of 5 members per team is allowed.",
+              "The teams need to bring their own RC cars. It should be built, not purchased.",
               "The RC car can be wired or wireless and it should be battery operated (Make sure the battery can sustain till the final round).",
               "Two rounds will be conducted.",
-              "The 1st round will be RC Tug of War on a flat track , by a set of 2 teams facing each other.",
+              "The 1st round will be RC Tug of War on a flat track between 2 teams, facing each other.",
               "The 2nd round will be a hardcore offroad track with various hindrance and obstacles to tackle (Ramp, Gravel, uneven paths).",
-              "The player and teammates will not be allowed to enter the track at any circumstanceduring the race."
+              "None of the team members are allowed to enter the track under any circumstance during the race."
             ]
           },
           {
             "Technical Specifications": [
-              "Dimensions of RC should not exceed 30x30x30cms.",
+              "Dimensions of RC cars should not exceed 30x30x30cms.",
               "Brushless DC motors are not allowed.",
               "There should be a minimum ground clearance of 5cm.",
               "Battery Rating : 3.7V (1800-3500 mAH)",
@@ -53,16 +53,14 @@ export const technicalEventsData = [
         rules: [
           {
             "": [
-              "Maximum of 4 participants are allowed to participate in the event.",
+              "Maximum of 5 members per team is allowed.",
               "Only the pilot is allowed to step into the race track, viewers and teammates are requested to stay behind the safety railings.",
               "A series of 2 rounds will be conducted.",
-              "The first round will consist of obstacle race event.",
+              "The first round will be conducted as an obstacle race event.",
               "The first round of the race should be completed in one lap.",
-              "Shorter time lap results in higher scores.",
-              "The second round will consist of a knockout race amongst the top 'X' teams.",
-              "Based on the score, three winners will be announced.",
-              "Participants are requested to bring their own batteries and chargers.",
-              "If the drone touches the obstacle the participant will be disqualified.",
+              "Shorter time laps result in higher scores.",
+              "The second round will consist of a knockout race amongst the top teams.",
+              "Teams requested to bring their own batteries and chargers.",
               "The participant loses if the drone flies beyond the racing track.",
               "Judges' decision will be final."
             ]
@@ -74,13 +72,13 @@ export const technicalEventsData = [
               "The pilot needs to be in the designated piloting area before triggering the failsafe switch.",
               "The drone's maximum altitude should be 15 feet.",
               "The college and organizer's are not responsible for any damage to the belongings of participants.",
-              "Fire and other accident safety protocols need to be followed."
+              "Safety protocols need to be followed."
             ]
           },
           {
             "Technical Specifications": [
               "Maximum frame size of the drone must be 270mm.",
-              "Battery capacity must not exceed 14.8v and 3,500mAh.",
+              "Battery capacity must not exceed 14.8V and 3,500mAh.",
               "Carbon fiber and metal propellers are not allowed for safety concerns.",
               "Frame materials are not restricted but it should not be a PNP/BNF model."
             ]
@@ -104,19 +102,20 @@ export const technicalEventsData = [
         rules: [
           {
             "": [
-              "The team must consist of 3-4 members. ",
+              "Maximum of 5 members per team is allowed. ",
               "The bot should weigh around 600 grams. ",
               "The bot should complete the full maze within the given time of 5 minutes. ",
               "The bot must be custom built. ",
               "Ready-made bots purchased from stores are not permitted. ",
-              "The created bot should be fully automatic not to be controlled by remotes. ",
-              "The participants will be given two chances to complete the maze fully. ",
-              "With every chance given to the participants, they should start right from the beginning.",
+              "The created bot should be fully automatic and not to be controlled by remotes. ",
+              "The teams will be given two chances to complete the maze fully. ",
+              "With every chance given,each team should start right from the beginning.",
               "Any violation of these rules will result in instant disqualification from the contest.",
               "The MicroMouse should be self-contained (no remote controls). ",
               "Changing ROMs or downloading programs is NOT allowed once the maze is revealed. ",
-              "Participants are allowed to change switch settings (e.g. to change algorithms like from left-turning to right turning again, entering data on maze size or content is not inclusive of this rule.) ",
-              "Participants can replace batteries between runs, adjust sensors, repair and change speed settings. "
+              "Teams are allowed to change switch settings (e.g. to change algorithms like from left-turning to right-turning again, entering data on maze size or content is not inclusive of this rule) ",
+              "Teams can replace batteries between runs, adjust sensors, repair and change speed settings. ",
+              "For dimensions and specifications of Maze & Bot, refer the rule book. Link: https://drive.google.com/file/d/1lopUcWi0-i3EVFnCBQ60Xbpg5uCHm7A-/view?usp=sharing "
             ]
           }
         ],
@@ -140,20 +139,20 @@ export const technicalEventsData = [
         rules: [
           {
             "General Rules": [
+              "A team must consist of two people. ",
               "The event will be conducted in two rounds. ",
-              "Duration: 1 hour and 30 minutes.",
-              "The quiz will be based on General topics. ",
-              "A team must consist of two people. "
+              +"The quiz will be based on Technology, Innovation and Research. "
             ],
             "Round 1": [
               "This round will be conducted using traditional pen and paper method. ",
               "Participants must answer the question within the given time. ",
-              "Objective type of questions will be asked."
+              "Questions will be of objective type."
             ],
             "Round 2": [
               "This will be a rapid fire round.",
               "20 questions will be asked.",
-              "Every correct answer will be provided with 5 points."
+              "Every correct answer will be provided with 5 points.",
+              "Negative markings will be given for wrong answers."
             ]
           }
         ],
@@ -177,15 +176,15 @@ export const technicalEventsData = [
         rules: [
           {
             "": [
-              "A team must have 3 members.",
+              "A team must have a maximum of 3 members.",
               "Everyone must construct their rocket within the perimeter of the arena.",
-              "Participants can launch their rockets at any desired angle.",
-              "Participants must present their rocket to the organizers before the launch.",
+              "Teams can launch their rockets at any desired angle.",
+              "Teams must present their rocket to the organizers before the launch.",
               "The rocket that travels the farthest distance will be declared as the winner.",
               "Rocket must be built within 30 minutes.",
               "Compressed gas will be provided in the arena.",
-              "The participants must bring their own water bottle to build the rocket along with stationery and decorative items, other extra requirements will be provided.",
-              "Only 2-liter bottles are allowed for construction of the rocket.",
+              "The teams must bring their own water bottle to build the rocket along with stationery and decorative items, other extra requirements will be provided.",
+              "Only 2 litre bottles are allowed for construction of the rocket.",
               "Usage of sharp objects is prohibited.",
               "The decision of the judges' and organizers' is final."
             ]
