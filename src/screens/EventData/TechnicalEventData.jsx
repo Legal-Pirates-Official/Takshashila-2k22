@@ -1,7 +1,6 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { technicalEventsData } from "../../assets/Events/TechnicalEventsData";
-import tkLogo from "../../assets/logo/tklogo.png";
 import ContentView from "../../components/ContentView";
 import { EventHeader } from "../../components/EventNavbar";
 import {

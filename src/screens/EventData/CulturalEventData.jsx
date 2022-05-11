@@ -1,7 +1,6 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { culturalEventsData } from "../../assets/Events/CulturalEventsData";
-import tkLogo from "../../assets/logo/tklogo.png";
 import ContentView from "../../components/ContentView";
 import { EventHeader } from "../../components/EventNavbar";
 import {
