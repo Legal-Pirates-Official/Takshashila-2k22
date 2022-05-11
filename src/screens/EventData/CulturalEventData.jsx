@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { culturalEventsData } from "../../assets/Events/CulturalEventsData";
 import tkLogo from "../../assets/logo/tklogo.png";
 import ContentView from "../../components/ContentView";
+import { EventHeader } from "../../components/EventNavbar";
 import {
   ContentDiv, EventsAtag, EventsContainer,
   EventsDiv,
@@ -22,11 +23,7 @@ function CulturalEventData() {
 
   return (
     <ParentContainer className="culturalEventsContainer">
-      <div className="tkheader">
-        <Link to="/">
-          <img src={tkLogo} alt="logo" />
-        </Link>
-      </div>
+      <EventHeader type={"cultural"}/>
       <EventsContainer>
         <EventsDiv>
           <div className="p-0">

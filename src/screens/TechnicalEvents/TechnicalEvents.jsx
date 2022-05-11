@@ -1,17 +1,14 @@
 import React from "react";
-import { TechnicalEventsContainer, EventListContainer } from "./TechnicalEvents.styles";
-import tkLogo from "../../assets/logo/tklogo.png";
-import { Link } from "react-router-dom";
-import Event from "../../components/Eventbox";
 import { technicalEventsData } from "../../assets/Events/TechnicalEventsData";
+import Event from "../../components/Eventbox";
+import { EventHeader } from "../../components/EventNavbar";
+import {
+  EventListContainer, TechnicalEventsContainer
+} from "./TechnicalEvents.styles";
 export default function TechnicalEvents() {
   return (
     <TechnicalEventsContainer className="technicalEventsContainer">
-      <div className="tkheader">
-        <Link to="/">
-          <img src={tkLogo} alt="logo" />
-        </Link>
-      </div>
+      <EventHeader type={"technical"} />
       {technicalEventsData?.map((info) => (
         <div className="container pb-5 pt-2">
           <p className="title mx-auto mb-4">{info?.heading}</p>

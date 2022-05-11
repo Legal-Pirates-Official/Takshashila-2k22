@@ -11,6 +11,20 @@ export const CulturalEventsContainer = styled.section`
   overflow-y:scroll;
   background: url(${require("../../assets/backgrounds/Day_Events.jpg")})
     bottom/cover no-repeat;
+    .nav-link{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem 1.25rem;
+      margin:0 0 0.5rem 0;
+      text-decoration: none;
+      color: #963900!important;
+      background: #f3e374;
+      border-radius: 45px;
+      font-size: medium;
+      font-weight: 400;
+  }
   .container {
     z-index: 1;
     width: 100%;

@@ -11,6 +11,20 @@ export const TechnicalEventsContainer = styled.section`
   overflow-y:scroll;
   background: url(${require("../../assets/backgrounds/Night_Events.jpg")})
     bottom/cover no-repeat;
+    .nav-link{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem 1.25rem;
+      margin:0 0 0.5rem 0;
+      text-decoration: none;
+      color: #31225F!important;
+      background: #F6ADCC;
+      border-radius: 45px;
+      font-size: medium;
+      font-weight: 400;
+  }
   .container {
     z-index:1;
     width: 100%;

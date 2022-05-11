@@ -1,20 +1,15 @@
 import React from "react";
+import { culturalEventsData } from "../../assets/Events/CulturalEventsData";
+import Event from "../../components/Eventbox";
+import { EventHeader } from "../../components/EventNavbar";
 import {
   CulturalEventsContainer,
   EventListContainer
 } from "./CulturalEvents.styles";
-import tkLogo from "../../assets/logo/tklogo.png";
-import { Link } from "react-router-dom";
-import Event from "../../components/Eventbox";
-import { culturalEventsData } from "../../assets/Events/CulturalEventsData";
 export default function CulturalEvents() {
   return (
     <CulturalEventsContainer className="culturalEventsContainer">
-      <div className="tkheader">
-        <Link to="/">
-          <img src={tkLogo} alt="logo" />
-        </Link>
-      </div>
+      <EventHeader type={"cultural"}/>
       {culturalEventsData?.map((info) => (
         <div className="container pb-5 pt-2">
           <p className="title mx-auto mb-4">{info?.heading}</p>

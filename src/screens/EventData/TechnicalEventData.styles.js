@@ -1,11 +1,6 @@
 import styled from "styled-components";
 
 export const ParentContainer = styled.section`
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
   position: relative;
   display: flex;
   flex-direction: column;
@@ -16,9 +11,28 @@ export const ParentContainer = styled.section`
   background: url(${require("../../assets/backgrounds/Night_Events.jpg")})
     bottom/cover no-repeat;
   color: white;
+  .nav-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.25rem;
+    margin: 0 0 0.5rem 0;
+    text-decoration: none;
+    color: #31225f !important;
+    background: #f6adcc;
+    border-radius: 45px;
+    font-size: medium;
+    font-weight: 400;
+  }
 `;
 
 export const EventsContainer = styled.section`
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   position: relative;
   display: flex;
   flex-direction: row;

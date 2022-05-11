@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { technicalEventsData } from "../../assets/Events/TechnicalEventsData";
 import tkLogo from "../../assets/logo/tklogo.png";
 import ContentView from "../../components/ContentView";
+import { EventHeader } from "../../components/EventNavbar";
 import {
   ContentDiv, EventsAtag, EventsContainer,
   EventsDiv,
@@ -20,11 +21,7 @@ function TechnicalEventData() {
 
   return (
     <ParentContainer  className="technicalEventsContainer">
-      <div className="tkheader">
-        <Link to="/">
-          <img src={tkLogo} alt="logo" />
-        </Link>
-      </div>
+      <EventHeader type={"technical"} />
       <EventsContainer>
         <EventsDiv>
           <div className="p-0">
