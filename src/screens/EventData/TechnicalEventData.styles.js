@@ -108,7 +108,7 @@ export const EventsAtag = styled.a`
   justify-content: center;
   align-items: center;
   padding: 0.5rem 1.5rem;
-  border-radius: 25px;
+  border-radius: 5px;
   margin: 5% 0;
   text-decoration: none;
   transition: all 0.3s ease;
