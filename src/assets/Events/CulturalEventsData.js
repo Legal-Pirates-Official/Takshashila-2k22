@@ -41,7 +41,7 @@ export const culturalEventsData = [
         link: "https://forms.gle/hrcEM3YTC14K2cvY6",
         image: "choreonight"
       },
-      {
+      /*{
         name: "Folk night",
         date: "20th May",
         description:
@@ -53,7 +53,7 @@ export const culturalEventsData = [
 
         link: "https://forms.gle/qKCjUSzULPxb2P1q9",
         image: "folknight"
-      },
+      },*/
       {
         name: "Musical night",
         date: "21st May",
@@ -87,7 +87,7 @@ export const culturalEventsData = [
     heading: "Events",
     data: [
       //1
-      {
+      /*{
         name: "Plush",
         date: "21st May",
         description:
@@ -133,7 +133,7 @@ export const culturalEventsData = [
         ],
         link: "https://forms.gle/vztRobPxvnD7yyMw7",
         image: "plush"
-      },
+      },*/
       //1
 
       //2
