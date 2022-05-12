@@ -141,7 +141,7 @@ export const technicalEventsData = [
             "General Rules": [
               "A team must consist of two people. ",
               "The event will be conducted in two rounds. ",
-              +"The quiz will be based on Technology, Innovation and Research. "
+              "The quiz will be based on Technology, Innovation and Research. "
             ],
             "Round 1": [
               "This round will be conducted using traditional pen and paper method. ",

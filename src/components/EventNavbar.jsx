@@ -13,7 +13,7 @@ export const EventHeader = ({ type }) => {
 
   return (
     <Navbar
-      className="w-100"
+      className="w-100 p-5"
       style={{ position: "relative" }}
       dark
     >
