@@ -10,22 +10,25 @@ export default function ContentView({ rules, registration, type, gallery }) {
     gallery.map((image) => {
       const url = require(`../assets/eventLogos/${image}.png`);
       return (
-        <CarouselItem key={url} >
-          <img className="img-fluid h-100 mx-auto" alt="gallery-img" src={url}></img>
+        <CarouselItem key={url}>
+          <img
+            className="img-fluid h-100 mx-auto"
+            alt="gallery-img"
+            src={url}
+          ></img>
         </CarouselItem>
       );
     });
 
-  const handleNext = () => !isAnimating&&
-    activeIndex === gallery.length - 1
+  const handleNext = () =>
+    !isAnimating && activeIndex === gallery.length - 1
       ? setActiveIndex(0)
       : setActiveIndex(activeIndex + 1);
-  const handlePrevious = () =>!isAnimating&&
-    activeIndex === 0
+  const handlePrevious = () =>
+    !isAnimating && activeIndex === 0
       ? setActiveIndex(gallery.length - 1)
       : setActiveIndex(activeIndex - 1);
 
-  
   return (
     <div
       className="h-100"
@@ -102,7 +105,19 @@ export default function ContentView({ rules, registration, type, gallery }) {
                   <h4 className="my-2">{Object?.keys(rule)[0]}</h4>
                   {rule[Object?.keys(rule)[0]]?.map((rules) => (
                     <li style={{ listStyle: "inside", whiteSpace: "pre-line" }}>
-                      <Linkify>{rules}</Linkify>
+                      <Linkify
+                        componentDecorator={(
+                          decoratedHref,
+                          decoratedText,
+                          key
+                        ) => (
+                          <a target="blank" href={decoratedHref} key={key}>
+                            {decoratedText}
+                          </a>
+                        )}
+                      >
+                        {rules}
+                      </Linkify>
                     </li>
                   ))}
                 </>
@@ -126,8 +141,8 @@ export default function ContentView({ rules, registration, type, gallery }) {
               activeIndex={activeIndex}
               next={handleNext}
               previous={handlePrevious}
-              onExiting={()=>setIsAnimatting(true)}
-          onExited={()=>setIsAnimatting(false)}
+              onExiting={() => setIsAnimatting(true)}
+              onExited={() => setIsAnimatting(false)}
             >
               {slides()}
               <CarouselControl
