@@ -36,6 +36,9 @@ function CulturalEventData() {
               </p>
             ))}
           </div>
+          <div>
+            <span>Event Date: <span className="text-white">{event?.date}</span></span>
+          </div>
           {event?.link&&<div>
             <EventsAtag href={event?.link} className="disabled">Registration Opens Soon</EventsAtag>
           </div>}

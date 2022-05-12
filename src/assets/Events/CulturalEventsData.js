@@ -4,6 +4,7 @@ export const culturalEventsData = [
     data: [
       {
         name: "Choreo Night",
+        date: "20th May",
         description:
           "Spike up your dancing skills that's rolled up under your sleeves as the music grooves. Come and show off your moves with your crew!!.  A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
         rules: [
@@ -42,6 +43,7 @@ export const culturalEventsData = [
       },
       {
         name: "Folk night",
+        date: "20th May",
         description:
           "It's time to break the silence of the night with some blasting folk music! Get ready folks, the night is ours to rule!.",
         registration: [
@@ -54,6 +56,7 @@ export const culturalEventsData = [
       },
       {
         name: "Musical night",
+        date: "21st May",
         description:
           "Let the music levitate your soul. The stage is set ablaze with melodies to vibe around.",
         registration: [
@@ -67,6 +70,7 @@ export const culturalEventsData = [
 
       {
         name: "DJ night",
+        date: "21st May",
         description:
           "Capturing the feeling of a crowd rocking out to an awesome DJ. We'll be burning up like neon lights, Wild for the night.",
         registration: [
@@ -85,6 +89,7 @@ export const culturalEventsData = [
       //1
       {
         name: "Plush",
+        date: "21st May",
         description:
           "Walking tall with your brilliant, sharp outfit brings out the beauty of this event!. Let the vigor in your strides make everyone's jaw drop. Plush is an event of confidence and elegance.",
         registration: [
@@ -135,6 +140,7 @@ export const culturalEventsData = [
 
       {
         name: "Solo Dance",
+        date: "20th May",
         description:
           "Sway your elite feet and match them with the beats. Lose yourself to the melody and let the dance display the real you.",
         registration: [
@@ -165,6 +171,7 @@ export const culturalEventsData = [
       //3
       {
         name: "Duals",
+        date: "20th May",
         description:
           "Synchronize your moves , it's just a dance for two , dual like never before else it's just another deja-vu",
         registration: [
@@ -199,6 +206,7 @@ export const culturalEventsData = [
       //4
       {
         name: "Pitch Perfect",
+        date: "21st May",
         description:
           "Light up the souls and charm them with your voice. Let your melody touch their heartstrings with your ethereal voice.",
         registration: [
@@ -243,6 +251,7 @@ export const culturalEventsData = [
 
       {
         name: "Acapella",
+        date: "21st May",
         description:
           "Let the voice of your harmony stir the souls of the audience!. Make your melody march to victory with the triumphant tunes of your team!.",
         registration: [
@@ -282,6 +291,7 @@ export const culturalEventsData = [
       //6
       {
         name: "24 Frames",
+        date: "20th May",
         description:
           "It's not a youtube short or reel. Let the beauty of your short film sink through our minds. Open our eyes, oh! director",
         registration: [
@@ -311,6 +321,7 @@ export const culturalEventsData = [
       //7
       {
         name: "60 To Victory",
+        date: "21st May",
         description:
           "60 seconds is all that it takes to win the words, give your best for Just-A-minute without hesitation and deviation but with sheer dedication and the game is yours.",
         registration: [
@@ -354,6 +365,7 @@ export const culturalEventsData = [
       //8
       {
         name: "Act-O-Mania",
+        date: "21st May",
         description:
           "Silence is better than a thousand words. In this utopia of expressions and gestures let your emotions come to life and your actions reign over the spotlight.",
         registration: [
@@ -386,6 +398,7 @@ export const culturalEventsData = [
       //9
       {
         name: "Behind Yellow Tapes",
+        date: "20th & 21st May",
         description:
           "Alas, it has come to our eyes, a poor soul has been put to sleep ruthlessly. Is there any Sherlock in the town? who can bring justice to the departed, with wits and clues and conclude the case to rest in peace.",
         registration: [
@@ -417,6 +430,7 @@ export const culturalEventsData = [
       //10
       {
         name: "BGMI",
+        date: "20th & 21st May",
         description:
           "Zero down your enemies, unshackle the beast within you and establish your dominance. Prove yourself as the undefeated champion, It's game on! Kill. Reload. Repeat.",
         registration: [
@@ -449,6 +463,7 @@ export const culturalEventsData = [
       //11
       {
         name: "Comic Quiz",
+        date: "20th May",
         description:
           "What's your superpower or are you a geek hero enough to see through questions and settle yourself for a perfect score?.",
         registration: [
@@ -479,6 +494,7 @@ export const culturalEventsData = [
       //12
       {
         name: "Cypher",
+        date: "20th May",
         description:
           "As the beat drops, Pull up your sleeves, get on the dance floor, toggle yourmoves to the dynamic stomps of the upbeat songs. ",
         registration: [
@@ -510,6 +526,7 @@ export const culturalEventsData = [
       //13
       {
         name: "Framespot",
+        date: "21st May",
         description:
           "Be the person who feels the frame and finds a story. Hey Artist, Find the frame and get flooded with fame.",
         registration: [
@@ -544,6 +561,7 @@ export const culturalEventsData = [
       //14
       {
         name: "Funzone",
+        date: "20th & 21st May",
         description:
           "Suit up and put your game faces on as you're about to dive into our world of mini games- The Fun Zone.",
         image: "funzone"
@@ -552,6 +570,7 @@ export const culturalEventsData = [
       //15
       {
         name: "Graphite-ty",
+        date: "20th May",
         description:
           "Let the graphite stain the A3s and let your creativity take control, sketch your way to victory.",
         registration: [
@@ -588,6 +607,7 @@ export const culturalEventsData = [
 
       {
         name: "It's Debatable",
+        date: "21st May",
         description:
           "Prove your wits and convince them with your words. This is your destiny, you have been arguing for. For what's worth, debate for it!.",
         registration: [
@@ -625,6 +645,7 @@ export const culturalEventsData = [
 
       {
         name: "Ok-Doodle",
+        date: "20th May",
         description:
           "Sketch down your messy creativity. Something sketchy is better than an empty canvas. Sketch your way and doodle your destiny.",
         registration: [
@@ -656,6 +677,7 @@ export const culturalEventsData = [
 
       {
         name: "On-Air",
+        date: "21st May",
         description:
           "If friendly banter and casual chit chat is your forte, and you have been wanting to scream out your opinions to the world, here's the chance of your life..",
         registration: [
@@ -694,6 +716,7 @@ export const culturalEventsData = [
       //21
       {
         name: "Shipwreck",
+        date: "21st May",
         description:
           "The captain is in a complete dilemma, but your charms and wits could be your life jacket.",
         registration: [
@@ -728,6 +751,7 @@ export const culturalEventsData = [
 
       {
         name: "The Talking head",
+        date: "20th & 21st May",
         description:
           "Journal through the wild and craft a world class report. Report creativity is the best policy.",
         registration: [
@@ -758,6 +782,7 @@ export const culturalEventsData = [
       //25
       {
         name: "TK TV",
+        date: "20th May",
         description:
           "With a click of the button, the channel changes; With a pick of words, your topic changes too! Act out the given topic, on-spot and show off your creativity!.",
         registration: [
@@ -802,6 +827,7 @@ export const culturalEventsData = [
       //26
       {
         name: "Wordsmith",
+        date: "20th May",
         description:
           "Pen down your superiority through creativity. The words shall forecast your victory. Explore beyond your wits and sprinkle them, like toppings on a cake. Here is your chance to unleash the writer within you.",
         registration: [

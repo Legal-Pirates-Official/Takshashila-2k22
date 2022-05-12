@@ -4,6 +4,7 @@ export const technicalEventsData = [
     data: [
       {
         name: "Drive n Strive (RC event)",
+        date: "20th May",
         description:
           "The force shall decide the winner. Wield your strength or yield. May the forcebe with you.",
         registration: [
@@ -43,6 +44,7 @@ export const technicalEventsData = [
 
       {
         name: "FPV Racing",
+        date: "20th May",
         description:
           "A futuristic sport that blurs the line between virtuality and reality, race across an insane course in first person view, a contemporary event with a digital twist.",
         registration: [
@@ -93,6 +95,7 @@ export const technicalEventsData = [
       },
       {
         name: "Micro Mouse Maze",
+        date: "21st May",
         description:
           "Can your Small robot mice escape a 16X16 maze?. Let your mice crack the algorithm and explore its logic with our competitive platform. This voyage-é-escape will decide who gets the cheese.",
         registration: [
@@ -128,6 +131,7 @@ export const technicalEventsData = [
       },
       {
         name: "Quiztopher",
+        date: "21st May",
         description:
           "If you are a tech whiz this is the right place for you to show your skills. Buckleup to take part in this mindsport. Ace it!!",
         registration: [
@@ -166,6 +170,7 @@ export const technicalEventsData = [
 
       {
         name: "Water Rocketry",
+        date: "21st May",
         description:
           "Build your own rocket using just a single bottle . Make the rocket soar high, Beyond the sky.",
         registration: [
@@ -204,6 +209,7 @@ export const technicalEventsData = [
     data: [
       {
         name: "Aeromodelling",
+        date: "21st May",
         description:
           "Aeromodelling is also an interdisciplinary area which helps you to develop knowledge of mechanical, electronics, electrical and computational domains. Our Aeromodelling workshops will ignite the spark of “Flying high” by creating interest and awareness towards aviation, offering new-age experiential learning for students. The workshop provides hands-on experience and will teach you to build and fly real-time radio-controlled aircraft, consisting of interactive sessions, simulation, designing ,prototyping, analyzing and parameter consideration. ",
         registration: [
@@ -220,6 +226,7 @@ export const technicalEventsData = [
 
       {
         name: "Cybersecurity",
+        date: "20th May",
         description:
           "With a complete walkthrough into the cryptic world of Cybersecurity, our workshop will ensure that you get a complete understanding of the fundamentals of the field, enabling you to set forth your journey forward as a cybersecurity-enthusiast. The workshop will cover all aspects of the domain, from what hacking is, who is a hacker, and the various types of hackings and hackers, to the elementary forms of hacking, as Script Kiddies to beginner levels with proper OS and hacking lab installations, all supplemented by hands-on experience throughout.",
         registration: [
@@ -235,6 +242,7 @@ export const technicalEventsData = [
       },
       {
         name: "Entrepreneurship",
+        date: "21st May",
         description:
           "Entrepreneurship is the talk of the town and an enticing way forward for the new generation. And hence our Entrepreneurship Workshop aims to give our next generation of entrepreneurs the right direction. With an all-inclusive orientation of this new and upcoming domain, spanning from what is entrepreneurship, visions, and missions for a venture, brand marketing, how exactly should a successful pitch be made, how to build your own startup, the problem and challenges faced throughout and how to handle them. This workshop is primarily done with the intention of supporting the youth to be future enterprise leaders, making the world a better place through business.",
         registration: [
@@ -251,6 +259,7 @@ export const technicalEventsData = [
 
       {
         name: "Photography",
+        date: "20th May",
         description:
           "Capturing the world and its beauty in a single shot is the essence of photography and how can this be accomplished ? That is the essence of the Photography workshop. The Workshop will have an in-detail demonstration of all aspects of the usage of camera and a special detailing into the Pro Mode and all its aspects: Shutter speed, Focus, Aperture, Light reception setting in all combinations. With various specifications and combinations of all these, it enables students to truly be able to capture this world's beauty in its complete entirety.",
         registration: [
