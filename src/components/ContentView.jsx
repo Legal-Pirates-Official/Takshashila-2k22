@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Linkify from "react-linkify/dist/components/Linkify";
 import { Carousel, CarouselControl, CarouselItem } from "reactstrap";
 
 export default function ContentView({ rules, registration, type, gallery }) {
@@ -101,7 +102,7 @@ export default function ContentView({ rules, registration, type, gallery }) {
                   <h4 className="my-2">{Object?.keys(rule)[0]}</h4>
                   {rule[Object?.keys(rule)[0]]?.map((rules) => (
                     <li style={{ listStyle: "inside", whiteSpace: "pre-line" }}>
-                      {rules}
+                      <Linkify>{rules}</Linkify>
                     </li>
                   ))}
                 </>
