@@ -44,7 +44,7 @@ export const EventListContainer = styled.section`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 2.5rem;
   align-items: flex-start;
   justify-content: center;
   width: 100%;
