@@ -7,14 +7,29 @@ export const AboutContainer = styled.section`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
+  overflow-y:scroll;
   color: #ffff;
-  text-align: justify;
-  line-height: 1.8;
-  font-weight:300;
+  .nav-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.25rem;
+    margin:0 0 0.5rem 0;
+    text-decoration: none;
+    color: #000000!important;
+    background: #a5e4ff;
+    border-radius: 45px;
+    font-size: medium;
+    font-weight: 400;
+}
 `;
 
 export const AboutDiv = styled.div`
+text-align: justify;
+line-height: 1.8;
+font-weight:300;
   position: relative;
   display: flex;
   flex-direction: column;

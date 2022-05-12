@@ -1,17 +1,12 @@
 import React from "react";
-import { AboutContainer, AboutDiv } from "./About.style";
-import tkLogo from "../../assets/logo/tklogo.png";
-import { Link } from "react-router-dom";
+import { EventHeader } from "../../components/EventNavbar";
 import Support from "../../components/Support";
+import { AboutContainer, AboutDiv } from "./About.style";
 
 function About() {
   return (
     <AboutContainer className="AboutContainer">
-      <div className="tkheader">
-        <Link to="/">
-          <img src={tkLogo} alt="logo" />
-        </Link>
-      </div>
+      <EventHeader type={"technical"} />
       <AboutDiv className="container">
         <div>
           <div className="title">About</div>
