@@ -83,7 +83,7 @@ export const culturalEventsData = [
       },
       {
         name: "Plush",
-        date: "21st May",
+        date: "20th May",
         description:
           "Walking tall with your brilliant, sharp outfit brings out the beauty of this event!. Let the vigor in your strides make everyone's jaw drop. Plush is an event of confidence and elegance.",
         registration: [
