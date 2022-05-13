@@ -41,6 +41,53 @@ export const culturalEventsData = [
         link: "https://forms.gle/hrcEM3YTC14K2cvY6",
         image: "choreonight"
       },
+      {
+        name: "Plush",
+        date: "20th May",
+        description:
+          "Walking tall with your brilliant, sharp outfit brings out the beauty of this event!. Let the vigor in your strides make everyone's jaw drop. Plush is an event of confidence and elegance.",
+        registration: [
+          "College ID is mandatory.",
+          "The team-head should register for the event, on behalf of the team.",
+          "Registration is to be done online and this event comes under premium registration.",
+          "Limited number of slots will only be available."
+        ],
+        rules: [
+          {
+            "": [
+              "Plush will be a team event. No individual participants are allowed.",
+              "Each team can comprise a maximum of 8-20 members.",
+              "Crossover teams are permitted to participate. ",
+              "The event will be open themed.",
+              "Costumes made must be self-developed and unique.",
+              "Plagiarism is strictly prohibited and will result in immediate disqualification."
+            ]
+          },
+          {
+            Prelims: [
+              "The google forms has to be filled and the video can be uploaded through the same.",
+              "Only a single non-edited video should be submitted.",
+              "Maximum duration of the video should be 5 minutes.",
+              "The last day for the submission of the video is before 15th of May 2022."
+            ]
+          },
+          {
+            Finals: [
+              "Shortlisted teams will be invited on the day of the event to walk on the ramp and showcase their costumes.",
+              "The event will be held in an indoor auditorium.",
+              "On-stage time for each team will be 8-12 minutes.",
+              "Music for the event can be brought by teams themselves."
+            ]
+          }
+        ],
+
+        contact: [
+          { name: "Rohith Nair", number: "+91 7397385494" },
+          { name: "Bavana", number: "+91 7010701974" }
+        ],
+        link: "https://forms.gle/vztRobPxvnD7yyMw7",
+        image: "plush"
+      },
       /*{
         name: "Folk night",
         date: "20th May",
@@ -81,53 +128,6 @@ export const culturalEventsData = [
         link: "https://forms.gle/YK8Ek5qt5bP26yECA",
         image: "djnight"
       },
-      {
-        name: "Plush",
-        date: "20th May",
-        description:
-          "Walking tall with your brilliant, sharp outfit brings out the beauty of this event!. Let the vigor in your strides make everyone's jaw drop. Plush is an event of confidence and elegance.",
-        registration: [
-          "College ID is mandatory.",
-          "The team-head should register for the event, on behalf of the team.",
-          "Registration is to be done online and this event comes under premium registration.",
-          "Limited number of slots will only be available."
-        ],
-        rules: [
-          {
-            "": [
-              "Plush will be a team event. No individual participants are allowed.",
-              "Each team can comprise a maximum of 6-10 members.",
-              "Crossover teams are permitted to participate. ",
-              "The event will be open themed.",
-              "Costumes made must be self-developed and unique.",
-              "Plagiarism is strictly prohibited and will result in immediate disqualification."
-            ]
-          },
-          {
-            Prelims: [
-              "The google forms has to be filled and the video can be uploaded through the same.",
-              "Only a single non-edited video should be submitted.",
-              "Maximum duration of the video should be 5 minutes.",
-              "The last day for the submission of the video is before 15th of May 2022."
-            ]
-          },
-          {
-            Finals: [
-              "Shortlisted teams will be invited on the day of the event to walk on the ramp and showcase their costumes.",
-              "The event will be held in an indoor auditorium.",
-              "On-stage time for each team will be 7-8 mins.",
-              "Music for the event can be brought by teams themselves."
-            ]
-          }
-        ],
-
-        contact: [
-          { name: "Rohith Nair", number: "+91 7397385494" },
-          { name: "Bavana", number: "+91 7010701974" }
-        ],
-        link: "https://forms.gle/vztRobPxvnD7yyMw7",
-        image: "plush"
-      }
     ]
   },
   {
