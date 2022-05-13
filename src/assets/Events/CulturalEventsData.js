@@ -80,14 +80,8 @@ export const culturalEventsData = [
 
         link: "https://forms.gle/YK8Ek5qt5bP26yECA",
         image: "djnight"
-      }
-    ]
-  },
-  {
-    heading: "Events",
-    data: [
-      //1
-      /*{
+      },
+      {
         name: "Plush",
         date: "21st May",
         description:
@@ -133,7 +127,14 @@ export const culturalEventsData = [
         ],
         link: "https://forms.gle/vztRobPxvnD7yyMw7",
         image: "plush"
-      },*/
+      }
+    ]
+  },
+  {
+    heading: "Events",
+    data: [
+      //1
+      /**/
       //1
 
       //2
