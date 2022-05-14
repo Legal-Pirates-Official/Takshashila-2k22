@@ -29,7 +29,7 @@ export const technicalEventsData = [
               "Dimensions of RC cars should not exceed 30x30x30cms.",
               "Brushless DC motors are not allowed.",
               "There should be a minimum ground clearance of 5cm.",
-              "Battery Rating : 3.7V (1800-3500 mAH)",
+              "Battery Rating : 12V (1800-3500 mAH)",
               "Motor Rating: 3-12V "
             ]
           }
