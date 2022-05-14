@@ -74,7 +74,7 @@ export const culturalEventsData = [
           {
             Finals: [
               "Shortlisted teams will be invited on the day of the event to walk on the ramp and showcase their costumes.",
-              "The event will be held in an indoor auditorium.",
+              "The event will be held as a proshow in the mainstage.",
               "On-stage time for each team will be 8-12 minutes.",
               "Music for the event can be brought by teams themselves."
             ]
