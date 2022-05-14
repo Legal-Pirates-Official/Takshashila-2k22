@@ -118,7 +118,7 @@ export const technicalEventsData = [
               "Changing ROMs or downloading programs is NOT allowed once the maze is revealed. ",
               "Teams are allowed to change switch settings (e.g. to change algorithms like from left-turning to right-turning again, entering data on maze size or content is not inclusive of this rule) ",
               "Teams can replace batteries between runs, adjust sensors, repair and change speed settings. ",
-              "For dimensions and specifications of Maze & Bot, refer the rule book. Link: https://drive.google.com/file/d/1lopUcWi0-i3EVFnCBQ60Xbpg5uCHm7A-/view?usp=sharing "
+              "For dimensions and specifications of Maze & Bot, refer the rule book. Link: https://drive.google.com/file/d/1xFA-B3Wk5A94wLDjR7m3o2D4ItT0ZxV5/view?usp=sharing "
             ]
           }
         ],
