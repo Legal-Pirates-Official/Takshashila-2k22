@@ -40,10 +40,10 @@ function CulturalEventData() {
             <span>Event Date: <span className="text-white">{event?.date}</span></span>
           </div>
           {event?.link&&<div>
-            <EventsAtag href={event?.link} className="enabled">Register</EventsAtag>
+            <EventsAtag target= '_blank' href={event?.link} className="enabled">Register</EventsAtag>
           </div>}
         </EventsDiv>
-        <ContentDiv >
+        <ContentDiv>
           <ContentView type={"cultural"} rules={event?.rules} registration={event?.registration} gallery={event?.gallery} />
         </ContentDiv>
       </EventsContainer>
