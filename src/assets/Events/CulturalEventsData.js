@@ -5,10 +5,13 @@ export const culturalEventsData = [
       {
         name: "Choreo Night",
         date: "20th May",
-        description:
-          "Spike up your dancing skills that's rolled up under your sleeves as the music grooves. Come and show off your moves with your crew!!.  A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks.",
+        description:[
+          ["Spike up your dancing skills that's rolled up under your sleeves as the music grooves. Come and show off your moves with your crew!!.  A photo is a moment frozen forever in time. Show the life you've lived through the lens and the moments you've preserved through your clicks."],
+          
+        ],
         rules: [
-          {
+          {"": ["Registrations closed"]},
+           {
             Prelims: [
               "Performance video should be uploaded during registration.",
               "Only a single non-edited video should be submitted. ",
@@ -26,6 +29,7 @@ export const culturalEventsData = [
               "Judges' and organizers' decisions will be final. "
             ]
           }
+          
         ],
         registration: [
           "College ID is mandatory.",
@@ -38,7 +42,7 @@ export const culturalEventsData = [
           { name: "Kavya A", number: "+91 6374253694" },
           { name: "Akshaya Preetha V", number: "+91 9361100381" }
         ],
-        link: "https://forms.gle/hrcEM3YTC14K2cvY6",
+        //link: "https://forms.gle/hrcEM3YTC14K2cvY6",
         image: "choreonight"
       },
       {
@@ -56,11 +60,11 @@ export const culturalEventsData = [
           {
             "": [
               "Plush will be a team event. No individual participants are allowed.",
-              "Each team can comprise a maximum of 8-20 members.",
-              "Crossover teams are permitted to participate. ",
+              "Each member of the team must pay 220 Rs.",
+              'Each team can comprise a maximum of 8-20 members.',
+              "Crossover teams are permitted to participate.",
               "The event will be open themed.",
               "Costumes made must be self-developed and unique.",
-              "Plagiarism is strictly prohibited and will result in immediate disqualification."
             ]
           },
           {
@@ -266,8 +270,8 @@ export const culturalEventsData = [
             Prelims: [
               "Open theme",
               "Timing should not exceed 3 minutes.",
-              "A minimum of 2 and a maximum of 4 participants are allowed per team.",
-              "Only one musical instrument is allowed.",
+              "A minimum of 2 and a maximum of 8 participants are allowed per team.",
+              "Only a maximum of 4 musical instruments are allowed.",
               "Karaoke is not allowed.",
               "Unparliamentary words should be avoided.",
               "Judges' and organizers' decisions will be final."
@@ -275,9 +279,9 @@ export const culturalEventsData = [
           },
           {
             Finals: [
-              "Participants should sing without instruments, only vocals.",
-              "Timing should not exceed 2 minutes.",
-              "10 mins will be given for preparation."
+              "Teams should sing with instruments and vocals.",
+              "Timing should not exceed 5 minutes.",
+              "5 mins will be given for preparation."
             ]
           }
         ],
@@ -1063,6 +1067,7 @@ export const culturalEventsData = [
               "Only boundaries are allowed.",
               "One bowler can bowl a maximum of 2 overs while others can only bowl 1 over.",
               "Playoffs will be held on 21st May.",
+              "No LBW.",
               "Umpires and volunteers' decisions will be final."
             ]
           }
@@ -1077,3 +1082,4 @@ export const culturalEventsData = [
     ]
   }
 ];
+
