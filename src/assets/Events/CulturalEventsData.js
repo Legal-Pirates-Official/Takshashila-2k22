@@ -10,7 +10,7 @@ export const culturalEventsData = [
           
         ],
         rules: [
-          {"": ["Registrations closed"]},
+          {"": ["Registrations are closed."]},
            {
             Prelims: [
               "Performance video should be uploaded during registration.",
@@ -57,8 +57,10 @@ export const culturalEventsData = [
           "Limited number of slots will only be available."
         ],
         rules: [
+          {"": ["Registrations are closed"]
+          },
           {
-            "": [
+            "General Rules": [
               "Plush will be a team event. No individual participants are allowed.",
               "Each member of the team must pay 220 Rs.",
               'Each team can comprise a maximum of 8-20 members.',
@@ -89,7 +91,7 @@ export const culturalEventsData = [
           { name: "Rohith Nair", number: "+91 7397385494" },
           { name: "Bavana", number: "+91 7010701974" }
         ],
-        link: "https://forms.gle/vztRobPxvnD7yyMw7",
+        //link: "https://forms.gle/vztRobPxvnD7yyMw7",
         image: "plush"
       },
       /*{
